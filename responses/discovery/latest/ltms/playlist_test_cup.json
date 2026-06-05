@@ -15,13 +15,13 @@
             "es-419": "TEST BACKEND"
         },
         "tagline": "MODOS & BACKEND",
-        "image_url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+        "image_url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-            "url_xs": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-            "url_m": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-            "url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png"
+            "url_s": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+            "url_xs": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+            "url_m": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+            "url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_showdownalt_solo"

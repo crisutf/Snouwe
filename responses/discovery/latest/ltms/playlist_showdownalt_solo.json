@@ -15,13 +15,13 @@
             "es-419": "ARENA SOLO"
         },
         "tagline": "ARENA SOLO",
-        "image_url": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
+        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-            "url_xs": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-            "url_m": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-            "url": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png"
+            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_showdownalt_solo"

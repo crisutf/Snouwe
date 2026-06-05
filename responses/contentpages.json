@@ -36,7 +36,7 @@
     "overrideablemessage": {
       "_type": "CommonUI Simple Message",
       "message": {
-        "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+        "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
         "hidden": false,
         "_type": "CommonUI Simple Message Base",
         "adspace": "ENJOY!",
@@ -212,7 +212,7 @@
       "_type": "Battle Royale News",
       "messages": [
         {
-          "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "DISCORD!",
@@ -221,7 +221,7 @@
           "spotlight": false
         },
         {
-          "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
@@ -284,28 +284,28 @@
       "_type": "Playlist Information",
       "playlists": [
         {
-          "image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_DefaultSolo",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Solo",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Duos",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Trios",
           "hidden": false,
           "special_border": "None",
@@ -331,10 +331,10 @@
       "tournaments": [
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaSolo",
@@ -342,7 +342,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Solo",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -351,15 +351,15 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         },
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaDuo",
@@ -367,7 +367,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Dúo",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -376,15 +376,15 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         },
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaTrios",
@@ -392,7 +392,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Tríos",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -401,7 +401,7 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api.leilos.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         }
       ],
@@ -5431,7 +5431,7 @@
     "_locale": "en-US"
   },
   "lobby": {
-    "backgroundimage": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+    "backgroundimage": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
     "stage": "seasonx",
     "_title": "lobby",
     "_activeDate": "2019-05-31T21:24:39.892Z",
@@ -5444,8 +5444,8 @@
       "motds": [
         {
           "entryType": "Website",
-          "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-          "tileImage": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "tileImage": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
           "videoMute": false,
           "hidden": false,
           "tabTitleOverride": "LEILOS (¬‿¬)",
@@ -5482,7 +5482,7 @@
       ],
       "messages": [
         {
-          "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
@@ -5558,7 +5558,7 @@
       "_type": "Battle Royale News",
       "messages": [
         {
-          "image": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",

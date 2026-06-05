@@ -14,7 +14,7 @@ const port = 8080;
 const wss = new WebSocket({ server: app.listen(port) });
 const matchmaker = require("../matchmaker/matchmaker.js");
 
-global.xmppDomain = "api.leilos.qzz.io";
+global.xmppDomain = "api-leilos.crisu.qzz.io";
 
 global.Clients = [];
 

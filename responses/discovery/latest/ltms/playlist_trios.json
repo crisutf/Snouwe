@@ -14,13 +14,13 @@
             "es": "Trios",
             "es-419": "Trios"
         },
-        "image_url": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
+        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
         "product_tag": "Product.BR.Build.Trios",
         "image_urls": {
-            "url_s": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-            "url_xs": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-            "url_m": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-            "url": "https://api.leilos.qzz.io/images/gamemodes/trios.png"
+            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_trios"

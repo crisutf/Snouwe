@@ -120,8 +120,8 @@ function getContentPages(req) {
     try {
         if (memory.build < 5.30) { 
             news.forEach(mode => {
-                contentpages[mode].news.messages[0].image = "https://api.leilos.qzz.io/images/images/leilos/png/logo_banner.png";
-                contentpages[mode].news.messages[1].image = "https://api.leilos.qzz.io/images/leilos/jpg/background.jpg";
+                contentpages[mode].news.messages[0].image = "https://api-leilos.crisu.qzz.io/images/images/leilos/png/logo_banner.png";
+                contentpages[mode].news.messages[1].image = "https://api-leilos.crisu.qzz.io/images/leilos/jpg/background.jpg";
             });
         }
     } catch {}
@@ -175,7 +175,7 @@ function getContentPages(req) {
                 break;
             default:
                 backgrounds[0].stage = "defaultnotris";
-                backgrounds[0].backgroundimage = "https://api.leilos.qzz.io/images/lobby/background_2048.png";
+                backgrounds[0].backgroundimage = "https://api-leilos.crisu.qzz.io/images/lobby/background_2048.png";
         }
 
         switch (memory.build) {
@@ -215,7 +215,7 @@ function getContentPages(req) {
                 backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/t-s25-14dos-lobby-4096x2048-2be24969eee3.jpg";
                 break;
             case 28.30:
-                backgrounds[0].backgroundimage = `https://api.leilos.qzz.io/images/lobby/background_2048.png`;
+                backgrounds[0].backgroundimage = `https://api-leilos.crisu.qzz.io/images/lobby/background_2048.png`;
                 break;
         }
 

@@ -127,7 +127,7 @@ module.exports = {
 
             // Enviar como mensaje de texto plano para que los emojis y el markdown se vean naturales
             // Enviamos la imagen como archivo adjunto para que no se vea el link
-            const imageUrl = 'https://cdn.leilos.qzz.io/public/media/images/discord/downloads.png';
+            const imageUrl = 'http://cdn.crisu.qzz.io/media/leilos/discord/downloads.png';
             await channel.send({ 
                 content: message,
                 files: [imageUrl]

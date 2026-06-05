@@ -283,7 +283,7 @@ app.post("/api/v1/fortnite-br/surfaces/*/target", (req, res) => {
                             {
                                 width: 1920,
                                 height: 1080,
-                                url: "https://cdn.leilos.qzz.io/public/media/images/logo/background.jpg",
+                                url: "http://cdn.crisu.qzz.io/media/leilos/logo/background.jpg",
                             }
                         ],
                         _type: "FullScreenBackground",

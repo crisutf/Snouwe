@@ -14,13 +14,13 @@
             "es": "EN ESCUADRÓN",
             "es-419": "EN ESCUADRÓN"
         },
-        "image_url": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
+        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
         "product_tag": "Product.BR.Build.Squads",
         "image_urls": {
-            "url_s": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-            "url_xs": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-            "url_m": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-            "url": "https://api.leilos.qzz.io/images/gamemodes/squads.png"
+            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultsquad"

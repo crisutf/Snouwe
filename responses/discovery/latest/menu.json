@@ -16,13 +16,13 @@
                 "es-419": "ARENA SOLO"
             },
             "tagline": "ARENA SOLO",
-            "image_url": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url_xs": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url_m": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url": "https://api.leilos.qzz.io/images/gamemodes/Arena_Playlist.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_showdownalt_solo"
@@ -62,13 +62,13 @@
                 "es-419": "COPA TEST BACKEND"
             },
             "tagline": "MODOS & BACKEND",
-            "image_url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url_xs": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url_m": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_showdownalt_solo"
@@ -107,13 +107,13 @@
                 "es-419": "Solo"
             },
             "tagline": "Solo",
-            "image_url": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-                "url_xs": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-                "url_m": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-                "url": "https://api.leilos.qzz.io/images/gamemodes/solo.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_defaultsolo"
@@ -151,13 +151,13 @@
                 "es-419": "Duo"
             },
             "tagline": "Duo",
-            "image_url": "https://api.leilos.qzz.io/images/gamemodes/duos.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
             "product_tag": "Product.BR.Build.Duos",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/gamemodes/duos.png",
-                "url_xs": "https://api.leilos.qzz.io/images/gamemodes/duos.png",
-                "url_m": "https://api.leilos.qzz.io/images/gamemodes/duos.png",
-                "url": "https://api.leilos.qzz.io/images/gamemodes/duos.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_defaultduo"
@@ -195,13 +195,13 @@
                 "es-419": "Trios"
             },
             "tagline": "Trios",
-            "image_url": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
             "product_tag": "Product.BR.Build.Trios",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-                "url_xs": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-                "url_m": "https://api.leilos.qzz.io/images/gamemodes/trios.png",
-                "url": "https://api.leilos.qzz.io/images/gamemodes/trios.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_trios"
@@ -239,13 +239,13 @@
                 "es-419": "Squad"
             },
             "tagline": "Squad",
-            "image_url": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
             "product_tag": "Product.BR.Build.Squads",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-                "url_xs": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-                "url_m": "https://api.leilos.qzz.io/images/gamemodes/squads.png",
-                "url": "https://api.leilos.qzz.io/images/gamemodes/squads.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_defaultsquad"
@@ -279,13 +279,13 @@
                 "es": "SALVAR EL MUNDO"
             },
             "tagline": "SALVAR EL MUNDO",
-            "image_url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
+            "image_url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
             "product_tag": "Product.Campaign",
             "image_urls": {
-                "url_s": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url_xs": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url_m": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png",
-                "url": "https://api.leilos.qzz.io/images/leilos/png/background_logo.png"
+                "url_s": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url_xs": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url_m": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+                "url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png"
             },
             "title": "Salvar el mundo",
             "playlist_name": "SALVAR EL MUNDO"

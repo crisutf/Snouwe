@@ -15,13 +15,13 @@
             "es-419": "Solo"
         },
         "tagline": "Solo",
-        "image_url": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
+        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-            "url_xs": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-            "url_m": "https://api.leilos.qzz.io/images/gamemodes/solo.png",
-            "url": "https://api.leilos.qzz.io/images/gamemodes/solo.png"
+            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultsolo"

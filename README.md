@@ -62,7 +62,7 @@ Este backend es una versión personalizada y mejorada llamada **Snouwe**, desarr
 El backend Snouwe está optimizado para el launcher **Mackna**.
 - **Repositorio:** [LeilosFN/Mackna](https://github.com/LeilosFN/Mackna)
 - **Puerto de Autenticación:** 4080 (Localhost)
-- **Flujo de Login:** El launcher abre `https://api.leilos.qzz.io/api/v2/discord/launcher?port=4080` para iniciar sesión.
+- **Flujo de Login:** El launcher abre `https://api-leilos.crisu.qzz.io/api/v2/discord/launcher?port=4080` para iniciar sesión.
 
 ---
 

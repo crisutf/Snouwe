@@ -380,7 +380,7 @@ router.get('/api/launcher/confirm', async (req, res) => {
   });
 
   // Redirigimos a una URL final que el launcher puede interceptar fácilmente
-  // Formato: https://api.leilos.qzz.io/api/launcher/success?code=UUID
+  // Formato: https://api-leilos.crisu.qzz.io/api/launcher/success?code=UUID
   res.redirect(`/api/launcher/success?code=${exchangeCode}`);
 });
 
