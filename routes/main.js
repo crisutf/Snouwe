@@ -283,24 +283,24 @@ app.post("/api/v1/fortnite-br/surfaces/*/target", (req, res) => {
                             {
                                 width: 1920,
                                 height: 1080,
-                                url: "http://cdn.crisu.qzz.io/media/leilos/logo/background.jpg",
+                                url: "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
                             }
                         ],
                         _type: "FullScreenBackground",
                     },
-                    FullScreenBody: "Snouwe Backend",
-                    FullScreenTitle: "LEILOS",
+                    FullScreenBody: "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+                    FullScreenTitle: "LEILOS - EN CONSTRUCCIÓN",
                     TeaserBackground: {
                         Image: [
                             {
                                 width: 1024,
                                 height: 512,
-                                url: "https://cdn1.epicgames.com/offer/fn/Blade_2560x1440_2560x1440-95718a8046a942675a0bc4d27560e2bb",
-                            },
+                                url: "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+                            }
                         ],
                         _type: "TeaserBackground",
                     },
-                    TeaserTitle: "SNOUWE",
+                    TeaserTitle: "LEILOS - EN CONSTRUCCIÓN",
                     VerticalTextLayout: false,
                 },
                 contentSchemaName: "DynamicMotd",
@@ -366,6 +366,92 @@ app.post("/datarouter/api/v1/public/data", async (req, res) => {
     } catch (error) {
         log.error("Error processing data: " + error);
         res.status(500).send("Internal Server Error");
+    }
+});
+
+// Player Count endpoint like Remix
+app.get("/rmx/server/api/v1/clients", async (req, res) => {
+    try {
+        const onlineUsers = global.Clients ? global.Clients.length : 0;
+        res.send(onlineUsers.toString());
+    } catch (err) {
+        log.error(`Player count error: ${err}`);
+        res.send("0");
+    }
+});
+
+// Friends endpoint like Remix
+app.get("/rmx/server/api/v1/friends/:accountId", async (req, res) => {
+    try {
+        const accountId = req.params.accountId;
+        const Friends = require("../model/friends.js");
+        
+        let friends = [];
+        const friendList = await Friends.find({ accountId });
+        
+        for (const friend of friendList) {
+            const user = await User.findOne({ accountId: friend.friendId });
+            if (user) {
+                const isOnline = global.Clients ? global.Clients.some(c => c.accountId === friend.friendId) : false;
+                friends.push({
+                    accountId: user.accountId,
+                    displayName: user.username,
+                    profilePicture: user.avatar ? `https://cdn.discordapp.com/avatars/${user.discordId}/${user.avatar}.png` : "",
+                    online: isOnline,
+                    status: isOnline ? "In Lobby" : "Offline"
+                });
+            }
+        }
+        
+        res.json(friends);
+    } catch (err) {
+        log.error(`Friends error: ${err}`);
+        res.json([]);
+    }
+});
+
+// Friends summary endpoint
+app.get("/friends/api/v1/:accountId/summary", async (req, res) => {
+    try {
+        const Friends = require("../model/friends.js");
+        const outgoing = await Friends.find({ accountId: req.params.accountId }).select("friendId");
+        
+        res.json({ outgoing });
+    } catch (err) {
+        log.error(`Friends summary error: ${err}`);
+        res.json({ outgoing: [] });
+    }
+});
+
+// Add friend endpoint
+app.post("/rmx/server/api/v1/friends/:accountId/:friendId", async (req, res) => {
+    try {
+        const Friends = require("../model/friends.js");
+        const { accountId, friendId } = req.params;
+        
+        const existing = await Friends.findOne({ accountId, friendId });
+        if (!existing) {
+            await new Friends({ accountId, friendId }).save();
+        }
+        
+        res.status(204).end();
+    } catch (err) {
+        log.error(`Add friend error: ${err}`);
+        res.status(500).end();
+    }
+});
+
+// Remove friend endpoint
+app.delete("/rmx/server/api/v1/friends/:accountId/:friendId", async (req, res) => {
+    try {
+        const Friends = require("../model/friends.js");
+        const { accountId, friendId } = req.params;
+        
+        await Friends.deleteOne({ accountId, friendId });
+        res.status(204).end();
+    } catch (err) {
+        log.error(`Remove friend error: ${err}`);
+        res.status(500).end();
     }
 });
 

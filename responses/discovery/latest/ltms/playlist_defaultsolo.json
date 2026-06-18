@@ -5,41 +5,53 @@
     "mnemonic": "playlist_defaultsolo",
     "linkType": "BR:Playlist",
     "metadata": {
-        "age_rating_index": 0,
         "parent_set": "set_br_playlists",
         "favorite_override": "set_br_playlists",
         "play_history_override": "set_br_playlists",
         "alt_title": {
+            "de": "Solo",
+            "ru": "В одиночку",
+            "ko": "솔로",
+            "pt-BR": "Solo",
             "en": "Solo",
-            "es": "Solo",
-            "es-419": "Solo"
+            "it": "Singolo",
+            "fr": "Solo",
+            "zh-CN": "",
+            "es": "En solitario",
+            "es-MX": "En solitario",
+            "zh": "",
+            "ar": "فردي",
+            "zh-Hant": "",
+            "ja": "ソロ",
+            "pl": "Solo",
+            "es-419": "En solitario",
+            "tr": "Tekli"
         },
-        "tagline": "Solo",
-        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png"
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultsolo"
         },
         "video_vuid": "taqdZkWyokbCyEFWld",
         "title": "Solo",
-        "playlist_name": "Solo"
+        "age_rating_index": 0
     },
-    "version": 1,
-    "linkCode": "playlist_defaultsolo",
+    "version": 95,
     "active": true,
-    "disabled": true,
-    "lockStatus": "LOCKED",
-    "lockStatusReason": "ComingSoon",
-    "isVisible": true,
-    "created": "2024-01-01T00:00:00.000Z",
-    "published": "2024-01-01T00:00:00.000Z",
+    "disabled": false,
+    "created": "2021-10-01T00:56:43.870Z",
+    "published": "2023-11-03T08:26:11.189Z",
     "descriptionTags": [],
-    "moderationStatus": "Approved",
-    "discoveryIntent": "PUBLIC"
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+    "discoveryIntent": "PUBLIC",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_defaultsolo"
 }

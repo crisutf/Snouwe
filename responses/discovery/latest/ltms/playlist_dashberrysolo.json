@@ -1,0 +1,70 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_dashberrysolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg3.png"
+        },
+        "predownload_link_codes": [
+            "0794-7216-8184"
+        ],
+        "alt_title": {
+            "de": "SCHLÜRFSCHUB",
+            "ru": "НЕКТАРНЫЙ ШТОРМ",
+            "ko": "홀짝 러시",
+            "pt": "HORA DO GLUP",
+            "zh-hant": "吸樂補熱",
+            "zh-hans": "果汁狂潮",
+            "it": "SUCCORSA",
+            "fr": "ÎLE DU BLEUVAGE",
+            "es": "FURIA DE SLURP",
+            "ar": "تدفق الشراب",
+            "vi": "Lam Thể Trào Dâng",
+            "th": "สเลิร์ปรัช",
+            "ja": "スラープ・ラッシュ",
+            "id": "Slurp Rush",
+            "pl": "SIORBOSZAŁ",
+            "es-419": "FURIA DE SLURP",
+            "tr": "GAZOZLA TAM GAZ"
+        },
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+        "product_tag": "Product.BlastBerry.Build",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png"
+        },
+        "title": "Slurp Rush",
+        "matchmaking": {
+            "override_playlist": "playlist_dashberrysolo"
+        },
+        "age_rating_index": 0,
+        "parent_set": "set_br_playlists",
+        "favorite_override": "set_br_playlists",
+        "play_history_override": "set_br_playlists"
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2024-11-26T21:36:01.690Z",
+    "published": "2024-11-26T21:36:01.690Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2024-11-26T21:36:01.695Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_dashberrysolo"
+}

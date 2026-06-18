@@ -1,46 +1,41 @@
+
 {
     "namespace": "fn",
     "accountId": "epic",
     "creatorName": "Epic",
-    "mnemonic": "playlist_showdownalt_solo",
-    "linkType": "BR:Playlist",
+    "mnemonic": "set_showdownalt_playlists",
+    "linkType": "ModeSet",
     "metadata": {
-        "age_rating_index": 0,
-        "parent_set": "set_showdownalt_playlists",
-        "favorite_override": "set_showdownalt_playlists",
-        "play_history_override": "set_showdownalt_playlists",
-        "alt_title": {
-            "en": "ARENA SOLO",
-            "es": "ARENA SOLO",
-            "es-419": "ARENA SOLO"
-        },
-        "tagline": "ARENA SOLO",
         "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-        "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
             "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
             "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
             "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
             "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
         },
-        "matchmaking": {
-            "override_playlist": "playlist_showdownalt_solo"
+        "title": "Arena",
+        "locale": "es",
+        "sub_link_codes": [
+            "playlist_showdownalt_solo",
+            "playlist_showdownalt_duos",
+            "playlist_showdownalt_trios"
+        ],
+        "alt_title": {
+            "en": "Arena",
+            "es": "Arena"
         },
-        "video_vuid": "taqdZkWyokbCyEFWld",
-        "title": "Arena Solo",
-        "playlist_name": "Arena SOLO",
-        "sub_title": "Arena SOLO"
+        "age_rating_index": 0
     },
     "version": 1,
-    "linkCode": "playlist_showdownalt_solo",
     "active": true,
     "disabled": false,
-    "lockStatus": "UNLOCKED",
-    "lockStatusReason": "NONE",
-    "isVisible": true,
     "created": "2024-01-01T00:00:00.000Z",
     "published": "2024-01-01T00:00:00.000Z",
     "descriptionTags": [],
     "moderationStatus": "Approved",
-    "discoveryIntent": "PUBLIC"
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true
 }

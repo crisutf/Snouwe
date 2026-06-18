@@ -3,35 +3,359 @@
         "namespace": "fn",
         "accountId": "epic",
         "creatorName": "Epic",
-        "mnemonic": "playlist_showdownalt_solo",
+        "mnemonic": "set_br_playlists",
+        "linkType": "ModeSet",
+        "metadata": {
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+            "image_urls": {
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg"
+            },
+            "title": "Battle Royale",
+            "locale": "en",
+            "video_vuid": "DpfVjiXQaFTRgOaGFE",
+            "frontend_plugin": "BattleRoyaleExperienceFrontend",
+            "sub_link_codes": [
+                "playlist_defaultsolo",
+                "playlist_defaultduo",
+                "playlist_trios",
+                "playlist_defaultsquad"
+            ],
+            "alt_title": {
+                "de": "Battle Royale",
+                "ru": "Королевская битва",
+                "ko": "배틀로얄",
+                "pt-BR": "Battle Royale",
+                "it": "Battaglia reale",
+                "fr": "Battle Royale",
+                "zh-CN": "",
+                "es": "Battle Royale",
+                "es-MX": "Batalla campal",
+                "zh": "",
+                "ar": "باتل رويال",
+                "zh-Hant": "",
+                "ja": "バトルロイヤル",
+                "pl": "Battle Royale",
+                "es-419": "Batalla campal",
+                "tr": "Battle Royale"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2025-01-01T00:00:00.000Z",
+        "published": "2025-01-01T00:00:00.000Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2025-01-01T00:00:00.000Z",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_defaultsolo",
         "linkType": "BR:Playlist",
         "metadata": {
-            "age_rating_index": 0,
             "parent_set": "set_br_playlists",
             "favorite_override": "set_br_playlists",
             "play_history_override": "set_br_playlists",
             "alt_title": {
-                "en": "ARENA SOLO",
-                "es": "ARENA SOLO",
-                "es-419": "ARENA SOLO"
+                "de": "Solo",
+                "ru": "В одиночку",
+                "ko": "솔로",
+                "pt-BR": "Solo",
+                "en": "Solo",
+                "it": "Singolo",
+                "fr": "Solo",
+                "zh-CN": "",
+                "es": "En solitario",
+                "es-MX": "En solitario",
+                "zh": "",
+                "ar": "فردي",
+                "zh-Hant": "",
+                "ja": "ソロ",
+                "pl": "Solo",
+                "es-419": "En solitario",
+                "tr": "Tekli"
             },
-            "tagline": "ARENA SOLO",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/Arena_Playlist.png"
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_defaultsolo"
+            },
+            "video_vuid": "taqdZkWyokbCyEFWld",
+            "title": "Solo",
+            "age_rating_index": 0
+        },
+        "version": 95,
+        "active": true,
+        "disabled": false,
+        "created": "2021-10-01T00:56:43.870Z",
+        "published": "2023-11-03T08:26:11.189Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_defaultduo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "parent_set": "set_br_playlists",
+            "favorite_override": "set_br_playlists",
+            "play_history_override": "set_br_playlists",
+            "alt_title": {
+                "de": "Duo",
+                "ru": "Парные сражения",
+                "ko": "듀오",
+                "pt-BR": "Duplas",
+                "en": "Duo",
+                "it": "Coppie",
+                "fr": "Duos",
+                "zh-CN": "",
+                "es": "Dúos",
+                "es-MX": "En dúo",
+                "zh": "",
+                "ar": "ثنائي",
+                "zh-Hant": "",
+                "ja": "デュオ",
+                "pl": "Pary",
+                "es-419": "En dúo",
+                "tr": "Çiftli"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+            "product_tag": "Product.BR.Build.Duo",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_defaultduo"
+            },
+            "video_vuid": "taqdZkWyokbCyEFWld",
+            "title": "Duo",
+            "age_rating_index": 0
+        },
+        "version": 95,
+        "active": true,
+        "disabled": false,
+        "created": "2021-10-01T00:56:46.389Z",
+        "published": "2023-11-03T08:25:34.690Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_trios",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "parent_set": "set_br_playlists",
+            "favorite_override": "set_br_playlists",
+            "play_history_override": "set_br_playlists",
+            "alt_title": {
+                "de": "Trio",
+                "ru": "Трио",
+                "ko": "트리오",
+                "pt-BR": "Trios",
+                "en": "Trio",
+                "it": "Terzetti",
+                "fr": "Trios",
+                "zh-CN": "",
+                "es": "Tríos",
+                "es-MX": "En trío",
+                "zh": "",
+                "ar": "ثلاثي",
+                "zh-Hant": "",
+                "ja": "トリオ",
+                "pl": "Trójki",
+                "es-419": "En trío",
+                "tr": "Üçlü"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+            "product_tag": "Product.BR.Build.Trio",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_trios"
+            },
+            "video_vuid": "taqdZkWyokbCyEFWld",
+            "title": "Trio",
+            "age_rating_index": 0
+        },
+        "version": 95,
+        "active": true,
+        "disabled": false,
+        "created": "2021-10-01T00:56:45.053Z",
+        "published": "2023-11-03T08:28:43.403Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_defaultsquad",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "parent_set": "set_br_playlists",
+            "favorite_override": "set_br_playlists",
+            "play_history_override": "set_br_playlists",
+            "alt_title": {
+                "de": "Team",
+                "ru": "Бои отрядов",
+                "ko": "스쿼드",
+                "pt-BR": "Esquadrões",
+                "en": "Squad",
+                "it": "Squadre",
+                "fr": "Sections",
+                "zh-CN": "",
+                "es": "Escuadrones",
+                "es-MX": "En escuadrón",
+                "zh": "",
+                "ar": "فِرق",
+                "zh-Hant": "",
+                "ja": "スクワッド",
+                "pl": "Oddziały",
+                "es-419": "En escuadrón",
+                "tr": "Ekipli"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+            "product_tag": "Product.BR.Build.Squad",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png"
+            },
+            "tagline": "",
+            "matchmaking": {
+                "override_playlist": "playlist_defaultsquad"
+            },
+            "video_vuid": "DpfVjiXQaFTRgOaGFE",
+            "title": "Squad",
+            "age_rating_index": 0
+        },
+        "version": 95,
+        "active": true,
+        "disabled": false,
+        "created": "2021-10-01T00:56:42.938Z",
+        "published": "2023-11-03T08:25:06.100Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "set_showdownalt_playlists",
+        "linkType": "ModeSet",
+        "metadata": {
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
+            },
+            "title": "Arena",
+            "locale": "es",
+            "sub_link_codes": [
+                "playlist_showdownalt_solo",
+                "playlist_showdownalt_duos",
+                "playlist_showdownalt_trios"
+            ],
+            "alt_title": {
+                "en": "Arena",
+                "es": "Arena"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2024-01-01T00:00:00.000Z",
+        "published": "2024-01-01T00:00:00.000Z",
+        "descriptionTags": [],
+        "moderationStatus": "Approved",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_showdownalt_solo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "age_rating_index": 0,
+            "parent_set": "set_showdownalt_playlists",
+            "favorite_override": "set_showdownalt_playlists",
+            "play_history_override": "set_showdownalt_playlists",
+            "alt_title": {
+                "en": "Arena Solo",
+                "es": "Arena Solo",
+                "es-419": "Arena Solo"
+            },
+            "tagline": "Arena Solo",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+            "product_tag": "Product.BR.Build.Solo",
+            "image_urls": {
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_showdownalt_solo"
             },
             "video_vuid": "taqdZkWyokbCyEFWld",
             "title": "Arena Solo",
-            "playlist_name": "ARENA SOLO",
-            "sub_title": "ARENA SOLO",
-            "tagline": "ARENA SOLO"
+            "playlist_name": "Arena Solo",
+            "sub_title": "Arena Solo",
+            "tagline": "Arena Solo"
         },
         "version": 1,
         "active": true,
@@ -49,246 +373,788 @@
         "namespace": "fn",
         "accountId": "epic",
         "creatorName": "Epic",
+        "mnemonic": "playlist_showdownalt_duos",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "age_rating_index": 0,
+            "parent_set": "set_showdownalt_playlists",
+            "favorite_override": "set_showdownalt_playlists",
+            "play_history_override": "set_showdownalt_playlists",
+            "alt_title": {
+                "en": "Arena DUOS",
+                "es": "Arena DUOS",
+                "es-419": "Arena DUOS"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+            "product_tag": "Product.BR.Build.Duos",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_showdownalt_duos"
+            },
+            "video_vuid": "taqdZkWyokbCyEFWld",
+            "title": "Arena DUOS"
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true,
+        "created": "2024-01-01T00:00:00.000Z",
+        "published": "2024-01-01T00:00:00.000Z",
+        "descriptionTags": [],
+        "moderationStatus": "Approved",
+        "discoveryIntent": "PUBLIC"
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_showdownalt_trios",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "age_rating_index": 0,
+            "parent_set": "set_showdownalt_playlists",
+            "favorite_override": "set_showdownalt_playlists",
+            "play_history_override": "set_showdownalt_playlists",
+            "alt_title": {
+                "en": "Arena TRIOS",
+                "es": "Arena TRIOS",
+                "es-419": "Arena TRIOS"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "product_tag": "Product.BR.Build.Trios",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_showdownalt_trios"
+            },
+            "video_vuid": "taqdZkWyokbCyEFWld",
+            "title": "Arena Trios"
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true,
+        "created": "2024-01-01T00:00:00.000Z",
+        "published": "2024-01-01T00:00:00.000Z",
+        "descriptionTags": [],
+        "moderationStatus": "Approved",
+        "discoveryIntent": "PUBLIC"
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_pilgrimquickplay",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/main-stage_lobbie_bg.png"
+            },
+            "internal_description_tags": [
+                "guitar_peripheral_enabled"
+            ],
+            "blog_category": "fortnite-festival",
+            "frontend_plugin": "SparksFrontend",
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_pilgrimquickplay"
+            },
+            "title": "Festival Main Stage",
+            "video_vuid": "TmspZBuurWGUxdzbkg",
+            "alt_square_image_urls": {
+                "de": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "ru": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "ko": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "pt-BR": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "zh-hans": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "it": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "fr": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "es": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "ar": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "ja": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "pl": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "es-419": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                },
+                "tr": {
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                }
+            },
+            "matchmakingV2": {
+                "allowSquadFillOption": true,
+                "allowJoinInProgress": false,
+                "crossplayRequired": true,
+                "maxPlayers": 4,
+                "maxSocialPartySize": 4,
+                "isRanked": false,
+                "maxTeamCount": 1,
+                "allowPrivateMatches": false,
+                "maxTeamSize": 4
+            },
+            "alt_image_urls": {
+                "de": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg"
+                },
+                "ru": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg"
+                },
+                "ko": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg"
+                },
+                "pt-BR": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg"
+                },
+                "zh-hans": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg"
+                },
+                "it": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg"
+                },
+                "fr": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg"
+                },
+                "es": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg"
+                },
+                "ar": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg"
+                },
+                "ja": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg"
+                },
+                "pl": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg"
+                },
+                "es-419": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg"
+                },
+                "tr": {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg"
+                }
+            },
+            "alt_title": {
+                "de": "Festival: Hauptbühne",
+                "ru": "Главная сцена Fortnite Festival",
+                "ko": "페스티벌 메인 스테이지",
+                "pt-BR": "Palco Principal do Festival",
+                "zh-hans": "音乐节主舞台",
+                "it": "Palco principale del Festival",
+                "fr": "Scène principale de Fortnite Festival",
+                "es": "Escenario principal de Festival",
+                "ar": "مسرح Festival الرئيسي",
+                "ja": "Festival メインステージ",
+                "pl": "Scena Główna w Fortnite Festival",
+                "es-419": "Escenario principal de Festival",
+                "tr": "Festival Ana Sahnesi"
+            },
+            "alt_tagline": {
+                "de": "Spiele mit Freunden in einer Band oder tritt solo auf der Bühne auf mit Hits von deinen Lieblingskünstlern in Fortnite Festival! Spiele vorgestellte wechselnde Jam-Songs auf der Hauptbühne. Tritt gegen Freunde an und schaue, wer die beste Performance bietet, oder schließt euch zusammen und erklimmt die Bestenlisten. Das Festival fängt gerade erst an und schon bald werden weitere Jam-Songs, Musikikonen, Konzerte und Bühnen erscheinen. Betritt die Bühne in Fortnite Festival!",
+                "ru": "Выступайте в группе с друзьями или исполняйте любимые композиции соло и покорите сцену в Fortnite Festival! Играйте на Главной сцене хиты из регулярно обновляющейся подборки. Соревнуйтесь с друзьями за звание лучшего исполнителя или покоряйте мировые списки лидеров одной группой. Фестиваль только начинается! Впереди много новых песен, звёзд, концертов и площадок. Сцена ждёт в Fortnite Festival!",
+                "ko": "친구와 함께 밴드를 결성하여 연주하거나, 포트나이트 페스티벌에서 무대에 올라가 좋아하는 아티스트가 작곡한 히트곡을 솔로로 연주하세요! 메인 스테이지에서 잼 트랙 추천 로테이션을 연주해 보세요. 최고의 공연을 위해 친구들과 함께 경쟁하거나, 팀을 이뤄 순위를 올려보세요. 페스티벌은 이제 시작입니다. 조만간 잼 트랙과 음악계의 아이콘, 콘서트, 스테이지가 더 추가됩니다! 포트나이트 페스티벌에서 나만의 무대에 오르세요!",
+                "pt-BR": "Suba ao palco e toque numa banda com a galera ou solo, interpretando sucessos dos seus artistas favoritos no Fortnite Festival! Toque uma seleção rotativa de Músicas no Palco Principal. Dispute com outras pessoas ou forme sua banda para alcançar o topo da tabela de liderança. O festival está só começando: muitas Músicas, ícones musicais, shows e palcos ainda estão por vir. Suba no palco no Fortnite Festival!",
+                "zh-hans": "参加《Fortnite 音乐节》，在舞台上独奏或与好友组队演奏自己最爱音乐家的热门曲目！在主舞台上轮换演奏精选即兴曲目。与好友同台竞演，实现最佳表现，或组队冲击排行榜榜首。音乐节才刚刚拉开帷幕，接下来会很快推出更多即兴曲目、音乐偶像、音乐会和舞台。在《Fortnite 音乐节》中登台演出吧！",
+                "it": "Suona in una band con gli amici o esibisciti da solista sul palco con i grandi successi dei tuoi artisti preferiti in Fortnite Festival! Una selezione di tracce Jam in evidenza ti aspetta sul Palco principale. Competi a colpi di performance contro gli amici o unisciti a loro per scalare le classifiche. Il Festival è solo all'inizio, con tante nuove tracce Jam, icone musicali, concerti e palchi presto in arrivo. Sali sul palco in Fortnite Festival!",
+                "fr": "Jouez en groupe avec des amis ou en solo sur les chansons de vos artistes préférés dans Fortnite Festival ! Montez sur la scène principale en choisissant parmi une rotation de pistes musicales à la une. Faites une meilleure performance que vos amis ou montez un groupe et hissez-vous en haut du classement. Ce n'est que le début. De nouveaux concerts, pistes musicales, icônes de la musique et concerts arriveront prochainement. Faites votre entrée sur scène dans Fortnite Festival !",
+                "es": "¡Súbete al escenario con una banda de amigos o en solitario y toca los temazos de tus artistas favoritos en Fortnite Festival! En el escenario principal podrás tocar una rotación de temas de improvisación. Compite contra amigos para ver quién actúa mejor o forma equipo para subir en los marcadores. El festival acaba de comenzar y pronto habrá más temas de improvisación, ídolos musicales, conciertos y escenarios. ¡Sube al escenario en Fortnite Festival!",
+                "ar": "اعزف في فرقة مع الأصدقاء أو قم بأداء منفرد على المسرح مع أغانٍ رائعة للفنانين المفضلين لديك في Fortnite Festival! اعزف مقطوعات العزف المميزة المتناوبة على المسرح الرئيسي. تنافس مع الأصدقاء على أفضل أداء أو انضم إلى فريق للارتقاء في لوحات المتصدرين. بدأ الحفل للتو مع المزيد من مقطوعات العزف وأيقونات الموسيقى وحفلات ومسرح قادمة قريبًا. هيمن على المسرح في Fortnite Festival!",
+                "ja": "お気に入りのアーティストのヒットナンバーをステージで演奏しよう。「Fortnite Festival」ではフレンドとバンドを組んでもいいし、ソロでも楽しめるぞ！ メインステージで、ローテーションされるおすすめのジャムトラックを演奏しよう。フレンドと最高のパフォーマンスを目指して競い合ったり、チームを組んでランキングを駆け上ろう。フェスティバルはまだ始まったばかり。今後もジャムトラック、ミュージックのアイコン、コンサート、ステージが追加される予定だ。「Fortnite Festival」でステージに立とう！",
+                "pl": "Graj ze znajomymi w zespole lub występuj solo, wykonując popularne utwory swoich ulubionych artystów w Fortnite Festival! Na Scenie Głównej można wykonywać wyróżnioną rotację ścieżek jamowych. Rywalizuj ze znajomymi o najlepszy występ lub połączcie siły i wspinajcie się po szczeblach tablic wyników. Festiwal dopiero się zaczyna: wkrótce do gry trafią nowe ścieżki jamowe, ikony muzyczne, koncerty i sceny. Wejdź na scenę w Fortnite Festival!",
+                "es-419": "¡Toca en una banda con amigos o interpreta las mejores canciones de tus artistas favoritos en solitario sobre el escenario de Fortnite Festival! Toca una selección variada de pistas en el Escenario principal. Compite contra tus amigos para ver quién da la mejor actuación o forma un equipo para ascender en los marcadores. El festival acaba de empezar y habrá más pistas, íconos musicales, conciertos y escenarios próximamente. ¡Sube al escenario en Fortnite Festival!",
+                "tr": "Fortnite Festival'de en sevdiğin sanatçıların en beğenilen şarkılarını ister arkadaşlarınla grup olarak çal ister tek başına sergile! Ana Sahne'de öne çıkan müzik parçalarından oluşan bir listeyi çal. En iyi performansı kimin sergileyeceğini görmek için arkadaşlarınla yarış ya da sıralamalarda yükselmek için onlarla birlik ol. Yakında gelecek daha fazla müzik parçası, müzik ikonu, konser ve sahneyle asıl festival daha yeni başlıyor. Fortnite Festival sahnesinde yerini al!"
+            },
+            "product_tag": "Product.Sparks.PilgrimQuickplay",
+            "tagline": "Play in a band with friends or perform solo on stage with hit music by your favorite artists in Fortnite Festival! On the Main Stage, play a featured rotation of Jam Tracks. Compete against friends for the best performance or team up to climb the leaderboards. The festival is just beginning with more Jam Tracks, Music Icons, concerts, and stages coming soon. Take your stage in Fortnite Festival!",
+            "extra_image_urls": [
+                {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg"
+                },
+                {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg"
+                },
+                {
+                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg"
+                }
+            ],
+            "square_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2022-09-12T15:11:15.045Z",
+        "published": "2024-11-02T11:18:52.509Z",
+        "descriptionTags": [
+            "music",
+            "party game"
+        ],
+        "moderationStatus": "Approved",
+        "lastActivatedDate": "2022-09-12T15:11:15.048Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_juno",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/lego/lego_lobbie_bg.png"
+            },
+            "frontend_plugin": "JunoFrontendUI",
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
+            "requiresArbitratedWorldId": true,
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_juno"
+            },
+            "title": "LEGO Fortnite",
+            "alt_title": {
+                "ar": "LEGO Fortnite",
+                "de": "LEGO Fortnite",
+                "ru": "LEGO Fortnite",
+                "ko": "레고 포트나이트",
+                "pt-BR": "LEGO Fortnite",
+                "ja": "LEGO Fortnite",
+                "it": "LEGO Fortnite",
+                "fr": "LEGO Fortnite",
+                "pl": "LEGO Fortnite",
+                "es": "LEGO Fortnite",
+                "es-419": "LEGO Fortnite",
+                "tr": "LEGO Fortnite"
+            },
+            "alt_tagline": {
+                "ar": "استكشف عوالم مفتوحة شاسعة حيث يتلاقى سحر بناء LEGO® وFortnite. اعثر على أفضل مغامرة LEGO للنجاة في Fortnite!",
+                "de": "Erkunde riesige offene Welten, in denen die Magie des Bauens von LEGO® und Fortnite aufeinandertreffen. In Fortnite findest du das ultimative LEGO-Abenteuer, in dem sich alles ums Überleben und Crafting dreht!",
+                "ru": "Исследуйте огромные открытые миры, где соединяются чудеса строительства LEGO® и приключения Fortnite. Отправьтесь в незабываемое путешествие с LEGO® в Fortnite и сделайте всё, чтобы выжить!",
+                "ko": "레고® 조립의 마법과 포트나이트가 만나는 광대한 오픈 월드를 탐험해 보세요. 포트나이트에서 궁극의 서바이벌 크래프팅 레고 어드벤처를 만나 보세요!",
+                "pt-BR": "Explore vastos mundos abertos onde a magia da construção LEGO® encontra o Fortnite. Descubra a mais completa aventura LEGO® de criação e sobrevivência no Fortnite!",
+                "ja": "LEGO®の建築の魔法とフォートナイトが出会う、広大なオープンワールドを探索しよう。 究極のサバイバル・クラフトLEGOアドベンチャーをフォートナイトで！",
+                "it": "Esplora vasti mondi aperti dove Fortnite incontra la magia delle costruzioni LEGO®. L'avventura LEGO definitiva ti aspetta in Fortnite!",
+                "fr": "Explorez de vastes mondes ouverts où les univers de Fortnite et LEGO® s'entremêlent pour un résultat haut en couleur ! Vivez une formidable expérience de survie et de construction LEGO dans Fortnite !",
+                "pl": "Eksploruj rozległe, otwarte światy, w których magia budowania LEGO® łączy się z Fortnite. Odkryj w Fortnite niesamowitą przygodę LEGO z elementami przetrwania i wytwarzania!",
+                "es": "Explora gigantescos mundos abiertos en los que la magia de la construcción de LEGO® se mezcla con Fortnite. ¡Descubre la aventura de supervivencia y construcción definitiva de LEGO en Fortnite!",
+                "es-419": "Explora vastos mundos abiertos donde la magia de la construcción de LEGO® y Fortnite se fusionan. ¡Descubre la aventura de supervivencia y fabricación definitiva de LEGO® en Fortnite!",
+                "tr": "Büyülü LEGO® yapılarının Fortnite ile buluştuğu muazzam açık dünyaları keşfet. Hayatta kalma ve üretim temalı muhteşem bir LEGO macerası şimdi Fortnite'ta!"
+            },
+            "feature_flags": [
+                "has_custom_ui"
+            ],
+            "product_tag": "Product.Juno",
+            "tagline": "Explore vast, open worlds where the magic of LEGO® building and Fortnite collide. Find the ultimate survival crafting LEGO adventure in Fortnite!",
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2022-08-11T20:17:42.128Z",
+        "published": "2023-11-07T23:01:02.564Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_beanstalk",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "frontend_plugin": "BeanstalkFrontend",
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg"
+            },
+            "matchmaking": {
+                "override_playlist": "playlist_beanstalk"
+            },
+            "title": "Fall Guys",
+            "alt_title": {
+                "ar": "Fall Guys",
+                "de": "Fall Guys",
+                "ru": "Fall Guys",
+                "ko": "Fall Guys",
+                "pt-BR": "Fall Guys",
+                "ja": "Fall Guys",
+                "it": "Fall Guys",
+                "fr": "Fall Guys",
+                "pl": "Fall Guys",
+                "es": "Fall Guys",
+                "es-419": "Fall Guys",
+                "tr": "Fall Guys"
+            },
+            "alt_tagline": {},
+            "feature_flags": [
+                "has_custom_ui"
+            ],
+            "product_tag": "Product.FNE.Beanstalk",
+            "tagline": "",
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2022-08-11T20:17:42.128Z",
+        "published": "2023-11-07T23:01:02.564Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_papaya",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "alt_title": {
+                "de": "Party Royale",
+                "ru": "Королевская вечеринка",
+                "ko": "파티로얄",
+                "pt-BR": "Festa Royale",
+                "it": "Party Reale",
+                "fr": "Fête royale",
+                "zh-CN": "",
+                "es": "Fiesta magistral",
+                "es-MX": "Fiesta campal",
+                "zh": "",
+                "ar": "الحفل الملكي",
+                "zh-Hant": "",
+                "ja": "パーティーロイヤル",
+                "pl": "Królewska Impreza",
+                "es-419": "Fiesta campal",
+                "tr": "Çılgın Parti"
+            },
+            "alt_tagline": {
+                "ar": "أهلًا إلى الحفل! اترك الأسلحة والمواد الخاصة بك واقض الوقت مع الأصدقاء والعب الألعاب وتمرن حتى الاحتراف على القفز الحر والمزيد غير ذلك. الحفل قد بدأت للتو!",
+                "de": "Willkommen zur Party! Lass deine Waffen und Materialien zu Hause. Hänge mit Freunden ab, spiele etwas und übe den freien Fall. Erlebe all das und noch mehr. Die Party hat gerade erst begonnen!",
+                "ru": "Добро пожаловать на вечеринку! Отложите оружие и стройматериалы в сторону! Веселитесь с друзьями, играйте, наслаждайтесь свободным падением и не только. Вечеринка только начинается!",
+                "ko": "파티에 오신 것을 환영합니다! 무기와 자원은 잠시 내려놓고, 친구들과 함께 게임을 플레이하고, 스카이다이빙 실력을 다지는 등 다양한 게임플레이를 즐겨보세요! 파티는 이제 시작입니다!",
+                "pt-BR": "Boas-vindas à Festa! Deixe suas armas e materiais para trás e entre com amigos, divirta-se com jogos, aperfeiçoe sua queda livre e mais. A festa está só começando!",
+                "ja": "パーティーへようこそ！ 武器や素材については今は忘れ、フレンドと遊んだり、ゲームをプレイしたり、スカ이다이빙을極めたりしよう。パーティーは始まったばかりだ！",
+                "it": "Il nostro benvenuto al party! Lasciati armi e materiali alle spalle e divertiti con gli amici, gioca, perfeziona lo skydiving e tante altre cose ancora. La festa è appena cominciata!",
+                "fr": "Bienvenue à la fête ! Laissez vos armes et votre matos au vestiaire et venez vous éclater entre potes, jouer à des jeux, faire de la chute en planeur et plus encore. La fête ne fait que commencer !",
+                "pl": "Witaj na imprezie! Zostaw broń i materiały i baw się ze znajomymi – graj w gry, ćwicz szybowanie i nie tylko! Impreza dopiero się zaczyna!",
+                "es": "¡Te damos la bienvenida a la fiesta! Deja atrás tus armas y materiales, y queda con tus amigos, juega a modos de juego, perfecciona tu técnica de paracaidismo y mucho más. ¡La fiesta acaba de empezar!",
+                "es-419": "¡Te damos la bienvenida a la fiesta! Deja atrás tus armas y materiales, pasa el rato con amigos, juega partidas, perfecciona tu caída libre y mucho más. ¡La fiesta acaba de empezar!",
+                "tr": "Partiye hoş geldin! Silah ve materyallerini geride bırak; arkadaşlarınla vakit geçir, oyunlar oyna, hava dalışında mükemmelliğe ulaş... Parti daha yeni başlıyor!"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg"
+            },
+            "tagline": "Welcome to the Party! Leave your weapons and mats behind and hang out with friends, play games, perfect your skydive and more. The party’s just getting started!",
+            "matchmaking": {
+                "override_playlist": "playlist_papaya"
+            },
+            "title": "Party Royale",
+            "age_rating_index": 0
+        },
+        "version": 95,
+        "active": true,
+        "disabled": false,
+        "created": "2021-10-01T00:56:45.010Z",
+        "published": "2021-08-03T15:27:20.251Z",
+        "descriptionTags": [],
+        "moderationStatus": "Approved",
+        "discoveryIntent": "PUBLIC",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_sunflowersolo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg1.png"
+            },
+            "required_content": {
+                "verse_uris": [
+                    "/Fortnite.com/GameFeatures/BRRoot",
+                    "/Fortnite.com/GameFeatures/CreativeRoot"
+                ]
+            },
+            "predownload_link_codes": [
+                "6990-4594-4017"
+            ],
+            "alt_title": {
+                "de": "Wagnis",
+                "ru": "Триумфант",
+                "ko": "모험",
+                "pt": "Aventura",
+                "zh-hant": "冒險",
+                "zh-hans": "冒险",
+                "it": "Ventura",
+                "fr": "Victoire",
+                "es": "Aventura",
+                "ar": "المغامرة",
+                "vi": "Mạo Hiểm",
+                "th": "เสิร์ฟซิตี้",
+                "ja": "ベンチャー",
+                "id": "Venture",
+                "pl": "Odważni Odkrywcy",
+                "es-419": "Aventura",
+                "tr": "Gümüş"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+            "product_tag": "Product.BlastBerry.Build",
+            "dynamicXp": {
+                "uniqueGameVersion": 1,
+                "calibrationPhase": "DataAnalysis"
+            },
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg"
+            },
+            "title": "Venture",
+            "matchmaking": {
+                "override_playlist": "playlist_sunflowersolo"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2024-08-13T18:59:16.611Z",
+        "published": "2024-08-13T18:59:16.611Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2024-08-13T18:59:16.542Z",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_punchberrysolo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg2.png"
+            },
+            "required_content": {
+                "verse_uris": [
+                    "/Fortnite.com/GameFeatures/BRRoot",
+                    "/Fortnite.com/GameFeatures/CreativeRoot"
+                ]
+            },
+            "predownload_link_codes": [
+                "9725-4954-0946"
+            ],
+            "alt_title": {
+                "de": "Oase",
+                "ru": "Оазис",
+                "ko": "오아시스",
+                "pt-BR": "Oasis",
+                "ja": "オアシス",
+                "it": "Oasi",
+                "fr": "Oasis",
+                "pl": "Oaza",
+                "es": "Oasis",
+                "es-419": "Oasis",
+                "tr": "Vaha"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+            "product_tag": "Product.BlastBerry.Build",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg"
+            },
+            "title": "Oasis",
+            "matchmaking": {
+                "override_playlist": "playlist_punchberrysolo"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2025-10-17T18:59:15.589Z",
+        "published": "2025-10-17T18:59:15.589Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2025-10-17T18:59:15.594Z",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_dashberrysolo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "required_content": {
+                "verse_uris": [
+                    "/Fortnite.com/GameFeatures/BRRoot",
+                    "/Fortnite.com/GameFeatures/CreativeRoot"
+                ]
+            },
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg3.png"
+            },
+            "predownload_link_codes": [
+                "0794-7216-8184"
+            ],
+            "alt_title": {
+                "de": "SCHLÜRFSCHUB",
+                "ru": "НЕКТАРНЫЙ ШТОРМ",
+                "ko": "홀짝 러시",
+                "pt": "HORA DO GLUP",
+                "zh-hant": "吸樂補熱",
+                "zh-hans": "果汁狂潮",
+                "it": "SUCCORSA",
+                "fr": "ÎLE DU BLEUVAGE",
+                "es": "FURIA DE SLURP",
+                "ar": "تدفق الشراب",
+                "vi": "Lam Thể Trào Dâng",
+                "th": "สเลิร์ปรัช",
+                "ja": "スラープ・ラッシュ",
+                "id": "Slurp Rush",
+                "pl": "SIORBOSZA",
+                "es-419": "FURIA DE SLURP",
+                "tr": "GAZOZLA TAM GAZ"
+            },
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+            "product_tag": "Product.BlastBerry.Build",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png"
+            },
+            "title": "Slurp Rush",
+            "matchmaking": {
+                "override_playlist": "playlist_dashberrysolo"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2024-11-26T21:36:01.690Z",
+        "published": "2024-11-26T21:36:01.690Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2024-11-26T21:36:01.695Z",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
+        "mnemonic": "playlist_piperbootsolo",
+        "linkType": "BR:Playlist",
+        "metadata": {
+            "lobby_background_image_urls": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg5.png"
+            },
+            "required_content": {
+                "verse_uris": [
+                    "/Fortnite.com/GameFeatures/BRRoot",
+                    "/Fortnite.com/GameFeatures/CreativeRoot"
+                ]
+            },
+            "predownload_link_codes": [
+                "7674-2102-3124"
+            ],
+            "alt_title": {
+                "de": "SURF CITY",
+                "ru": "СЁРФ-СИТИ",
+                "ko": "서프 시티",
+                "pt": "ILHA DO SURF",
+                "zh-hant": "浪城",
+                "zh-hans": "踏浪都市",
+                "it": "SOSTA SURF",
+                "fr": "CONTRÉES DU SURF",
+                "es": "CIUDAD SURF",
+                "ar": "مدينة الأمواج",
+                "vi": "THÀNH PHỐ SÓNG XÔ",
+                "th": "เซิร์ฟซิตี้",
+                "ja": "サーフシティ",
+                "id": "KOTA SELANCAR",
+                "pl": "STOLICA SURFERÓW",
+                "es-419": "CIUDAD SURF",
+                "tr": "SÖRF ŞEHRİ"
+            },
+            "favorite_override": "set_br_playlists",
+            "parent_set": "set_br_playlists",
+            "play_history_override": "set_br_playlists",
+            "block_cascading_data": "true",
+            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+            "product_tag": "Product.BlastBerry.Build",
+            "image_urls": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg"
+            },
+            "title": "Surf City",
+            "matchmaking": {
+                "override_playlist": "playlist_piperbootsolo"
+            },
+            "age_rating_index": 0
+        },
+        "version": 1,
+        "active": true,
+        "disabled": false,
+        "created": "2025-05-05T20:29:16.611Z",
+        "published": "2025-05-05T20:29:16.611Z",
+        "updated": "2025-08-26T20:32:22.689Z",
+        "descriptionTags": [],
+        "moderationStatus": "Unmoderated",
+        "lastActivatedDate": "2025-05-05T20:29:16.542Z",
+        "discoveryIntent": "PUBLIC",
+        "linkState": "LIVE",
+        "lockStatus": "UNLOCKED",
+        "lockStatusReason": "NONE",
+        "isVisible": true
+    },
+    {
+        "namespace": "fn",
+        "accountId": "epic",
+        "creatorName": "Epic",
         "mnemonic": "playlist_test_cup",
         "linkType": "BR:Playlist",
         "metadata": {
             "age_rating_index": 0,
-            "parent_set": "set_br_playlists",
-            "favorite_override": "set_br_playlists",
-            "play_history_override": "set_br_playlists",
             "alt_title": {
                 "en": "COPA TEST BACKEND",
                 "es": "COPA TEST BACKEND",
                 "es-419": "COPA TEST BACKEND"
             },
             "tagline": "MODOS & BACKEND",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/logo/Fort_Load_SeasonKeyArt.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/logo/Fort_Load_SeasonKeyArt.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/logo/Fort_Load_SeasonKeyArt.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/logo/Fort_Load_SeasonKeyArt.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/logo/Fort_Load_SeasonKeyArt.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_showdownalt_solo"
             },
             "video_vuid": "taqdZkWyokbCyEFWld",
-            "title": "TEST BACKEND & MODES",
+            "title": "TEST BACKEND & MODOS",
             "playlist_name": "COPA TEST BACKEND",
             "sub_title": "MODOS & BACKEND"
-        },
-        "version": 1,
-        "active": true,
-        "disabled": true,
-        "lockStatus": "LOCKED",
-        "lockStatusReason": "ComingSoon",
-        "isVisible": true,
-        "created": "2024-01-01T00:00:00.000Z",
-        "published": "2024-01-01T00:00:00.000Z",
-        "descriptionTags": [],
-        "moderationStatus": "Approved",
-        "discoveryIntent": "PUBLIC"
-    },
-    {
-        "namespace": "fn",
-        "accountId": "epic",
-        "creatorName": "Epic",
-        "mnemonic": "playlist_defaultsolo",
-        "linkType": "BR:Playlist",
-        "metadata": {
-            "age_rating_index": 0,
-            "parent_set": "set_br_playlists",
-            "favorite_override": "set_br_playlists",
-            "play_history_override": "set_br_playlists",
-            "alt_title": {
-                "en": "Solo",
-                "es": "Solo",
-                "es-419": "Solo"
-            },
-            "tagline": "Solo",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-            "product_tag": "Product.BR.Build.Solo",
-            "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/solo.png"
-            },
-            "matchmaking": {
-                "override_playlist": "playlist_defaultsolo"
-            },
-            "video_vuid": "taqdZkWyokbCyEFWld",
-            "title": "Solo",
-            "playlist_name": "Solo"
-        },
-        "version": 95,
-        "active": true,
-        "disabled": true,
-        "lockStatus": "LOCKED",
-        "lockStatusReason": "ComingSoon",
-        "isVisible": true,
-        "created": "2021-10-01T00:56:43.870Z",
-        "published": "2023-11-03T08:26:11.189Z",
-        "descriptionTags": [],
-        "moderationStatus": "Approved",
-        "discoveryIntent": "PUBLIC"
-    },
-    {
-        "namespace": "fn",
-        "accountId": "epic",
-        "creatorName": "Epic",
-        "mnemonic": "playlist_defaultduo",
-        "linkType": "BR:Playlist",
-        "metadata": {
-            "age_rating_index": 0,
-            "parent_set": "set_br_playlists",
-            "favorite_override": "set_br_playlists",
-            "play_history_override": "set_br_playlists",
-            "alt_title": {
-                "en": "Duo",
-                "es": "Duo",
-                "es-419": "Duo"
-            },
-            "tagline": "Duo",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-            "product_tag": "Product.BR.Build.Duos",
-            "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png"
-            },
-            "matchmaking": {
-                "override_playlist": "playlist_defaultduo"
-            },
-            "video_vuid": "taqdZkWyokbCyEFWld",
-            "title": "Duo",
-            "playlist_name": "Duo"
-        },
-        "version": 1,
-        "active": true,
-        "disabled": true,
-        "lockStatus": "LOCKED",
-        "lockStatusReason": "ComingSoon",
-        "isVisible": true,
-        "created": "2024-01-01T00:00:00.000Z",
-        "published": "2024-01-01T00:00:00.000Z",
-        "descriptionTags": [],
-        "moderationStatus": "Approved",
-        "discoveryIntent": "PUBLIC"
-    },
-    {
-        "namespace": "fn",
-        "accountId": "epic",
-        "creatorName": "Epic",
-        "mnemonic": "playlist_trios",
-        "linkType": "BR:Playlist",
-        "metadata": {
-            "age_rating_index": 0,
-            "parent_set": "set_br_playlists",
-            "favorite_override": "set_br_playlists",
-            "play_history_override": "set_br_playlists",
-            "alt_title": {
-                "en": "Trios",
-                "es": "Trios",
-                "es-419": "Trios"
-            },
-            "tagline": "Trios",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
-            "product_tag": "Product.BR.Build.Trios",
-            "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/trios.png"
-            },
-            "matchmaking": {
-                "override_playlist": "playlist_trios"
-            },
-            "video_vuid": "taqdZkWyokbCyEFWld",
-            "title": "Trios",
-            "playlist_name": "Trios"
-        },
-        "version": 1,
-        "active": true,
-        "disabled": true,
-        "lockStatus": "LOCKED",
-        "lockStatusReason": "ComingSoon",
-        "isVisible": true,
-        "created": "2024-01-01T00:00:00.000Z",
-        "published": "2024-01-01T00:00:00.000Z",
-        "descriptionTags": [],
-        "moderationStatus": "Approved",
-        "discoveryIntent": "PUBLIC"
-    },
-    {
-        "namespace": "fn",
-        "accountId": "epic",
-        "creatorName": "Epic",
-        "mnemonic": "playlist_defaultsquad",
-        "linkType": "BR:Playlist",
-        "metadata": {
-            "age_rating_index": 0,
-            "parent_set": "set_br_playlists",
-            "favorite_override": "set_br_playlists",
-            "play_history_override": "set_br_playlists",
-            "alt_title": {
-                "en": "Squad",
-                "es": "Squad",
-                "es-419": "Squad"
-            },
-            "tagline": "Squad",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-            "product_tag": "Product.BR.Build.Squads",
-            "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png"
-            },
-            "matchmaking": {
-                "override_playlist": "playlist_defaultsquad"
-            },
-            "video_vuid": "taqdZkWyokbCyEFWld",
-            "title": "Squad",
-            "playlist_name": "Squad"
-        },
-        "version": 1,
-        "active": true,
-        "disabled": true,
-        "lockStatus": "LOCKED",
-        "lockStatusReason": "ComingSoon",
-        "isVisible": true,
-        "created": "2024-01-01T00:00:00.000Z",
-        "published": "2024-01-01T00:00:00.000Z",
-        "descriptionTags": [],
-        "moderationStatus": "Approved",
-        "discoveryIntent": "PUBLIC"
-    },
-    {
-        "namespace": "fn",
-        "accountId": "epic",
-        "creatorName": "Epic",
-        "mnemonic": "playlist_campaign",
-        "linkType": "External",
-        "metadata": {
-            "age_rating_index": 0,
-            "alt_title": {
-                "en": "SALVAR EL MUNDO",
-                "es": "SALVAR EL MUNDO"
-            },
-            "tagline": "SALVAR EL MUNDO",
-            "image_url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-            "product_tag": "Product.Campaign",
-            "image_urls": {
-                "url_s": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url_xs": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url_m": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-                "url": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png"
-            },
-            "title": "Salvar el mundo",
-            "playlist_name": "SALVAR EL MUNDO"
         },
         "version": 1,
         "active": true,

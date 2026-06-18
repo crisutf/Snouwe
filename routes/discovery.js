@@ -38,12 +38,42 @@ app.post("/links/api/fn/mnemonic", (req, res) => {
 app.get("/links/api/fn/mnemonic/:playlist/related", (req, res) => {
     const playlist = req.params.playlist;
     const latestMenu = getLatestMenu();
-    const linkData = latestMenu.find(i => i.mnemonic === playlist);
+    const relatedResponse = {
+        parentLinks: [],
+        links: {}
+    };
     
-    res.json({
-        "parentLinks": [],
-        "links": linkData ? { [playlist]: linkData } : {}
-    });
+    const findPlaylist = latestMenu.find(i => i.mnemonic === playlist);
+    if (findPlaylist && findPlaylist.metadata && findPlaylist.metadata.sub_link_codes) {
+        relatedResponse.parentLinks.push(findPlaylist);
+        for (const subLinkCode of findPlaylist.metadata.sub_link_codes) {
+            const subLinkData = latestMenu.find(i => i.mnemonic === subLinkCode);
+            if (subLinkData) {
+                relatedResponse.links[subLinkCode] = subLinkData;
+            }
+        }
+    } else {
+        if (findPlaylist) {
+            relatedResponse.links[playlist] = findPlaylist;
+        }
+        if (findPlaylist && findPlaylist.metadata && findPlaylist.metadata.parent_set) {
+            const parentSet = latestMenu.find(i => i.mnemonic === findPlaylist.metadata.parent_set);
+            if (parentSet) {
+                relatedResponse.parentLinks.push(parentSet);
+                const existingLinks = new Set(Object.keys(relatedResponse.links));
+                if (parentSet.metadata && parentSet.metadata.sub_link_codes) {
+                    parentSet.metadata.sub_link_codes.forEach(code => {
+                        const matchingResult = latestMenu.find(i => i.mnemonic === code);
+                        if (matchingResult && !existingLinks.has(code)) {
+                            relatedResponse.links[code] = matchingResult;
+                        }
+                    });
+                }
+            }
+        }
+    }
+    
+    res.json(relatedResponse);
 });
 
 app.get("/links/api/fn/mnemonic/:playlist", (req, res) => {
@@ -102,24 +132,24 @@ app.post("/api/v1/fortnite-br/surfaces/*/target", (req, res) => {
                             {
                                 width: 1920,
                                 height: 1080,
-                                url: "https://cdn1.epicgames.com/offer/fn/Blade_2560x1440_2560x1440-95718a8046a942675a0bc4d27560e2bb",
+                                url: "https://cdn.crisu.qzz.io/services/leilos/status/down.jpg",
                             }
                         ],
                         _type: "FullScreenBackground",
                     },
-                    FullScreenBody: "SNOUWE Backend",
-                    FullScreenTitle: "SNOUWE",
+                    FullScreenBody: "Advertencia este backend esta en mantenimiento todo acceso no autorizado puede considerarse como un ataque de seguridad",
+                    FullScreenTitle: "ADVERTENCIA",
                     TeaserBackground: {
                         Image: [
                             {
                                 width: 1024,
                                 height: 512,
-                                url: "https://cdn1.epicgames.com/offer/fn/Blade_2560x1440_2560x1440-95718a8046a942675a0bc4d27560e2bb",
+                                url: "https://cdn.crisu.qzz.io/services/leilos/status/down.jpg",
                             },
                         ],
                         _type: "TeaserBackground",
                     },
-                    TeaserTitle: "SNOUWE",
+                    TeaserTitle: "ADVERTENCIA",
                     VerticalTextLayout: false,
                 },
                 contentSchemaName: "DynamicMotd",

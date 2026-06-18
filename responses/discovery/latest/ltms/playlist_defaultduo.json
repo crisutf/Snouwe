@@ -5,40 +5,54 @@
     "mnemonic": "playlist_defaultduo",
     "linkType": "BR:Playlist",
     "metadata": {
-        "age_rating_index": 0,
         "parent_set": "set_br_playlists",
         "favorite_override": "set_br_playlists",
         "play_history_override": "set_br_playlists",
         "alt_title": {
+            "de": "Duo",
+            "ru": "Парные сражения",
+            "ko": "듀오",
+            "pt-BR": "Duplas",
             "en": "Duo",
-            "es": "Duo",
-            "es-419": "Duo"
+            "it": "Coppie",
+            "fr": "Duos",
+            "zh-CN": "",
+            "es": "Dúos",
+            "es-MX": "En dúo",
+            "zh": "",
+            "ar": "ثنائي",
+            "zh-Hant": "",
+            "ja": "デュオ",
+            "pl": "Pary",
+            "es-419": "En dúo",
+            "tr": "Çiftli"
         },
-        "tagline": "Duo",
-        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-        "product_tag": "Product.BR.Build.Duos",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+        "product_tag": "Product.BR.Build.Duo",
         "image_urls": {
-            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png",
-            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/duos.png"
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultduo"
         },
         "video_vuid": "taqdZkWyokbCyEFWld",
-        "title": "Duo"
+        "title": "Duo",
+        "age_rating_index": 0
     },
-    "version": 1,
-    "linkCode": "playlist_defaultduo",
+    "version": 95,
     "active": true,
-    "disabled": true,
-    "lockStatus": "LOCKED",
-    "lockStatusReason": "ComingSoon",
-    "isVisible": true,
-    "created": "2024-01-01T00:00:00.000Z",
-    "published": "2024-01-01T00:00:00.000Z",
+    "disabled": false,
+    "created": "2021-10-01T00:56:46.389Z",
+    "published": "2023-11-03T08:25:34.690Z",
     "descriptionTags": [],
-    "moderationStatus": "Approved",
-    "discoveryIntent": "PUBLIC"
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+    "discoveryIntent": "PUBLIC",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_defaultduo"
 }

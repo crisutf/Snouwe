@@ -1,0 +1,58 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_beanstalk",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "frontend_plugin": "BeanstalkFrontend",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg"
+        },
+        "matchmaking": {
+            "override_playlist": "playlist_beanstalk"
+        },
+        "title": "Fall Guys",
+        "alt_title": {
+            "ar": "Fall Guys",
+            "de": "Fall Guys",
+            "ru": "Fall Guys",
+            "ko": "Fall Guys",
+            "pt-BR": "Fall Guys",
+            "ja": "Fall Guys",
+            "it": "Fall Guys",
+            "fr": "Fall Guys",
+            "pl": "Fall Guys",
+            "es": "Fall Guys",
+            "es-419": "Fall Guys",
+            "tr": "Fall Guys"
+        },
+        "alt_tagline": {},
+        "feature_flags": [
+            "has_custom_ui"
+        ],
+        "product_tag": "Product.FNE.Beanstalk",
+        "tagline": "",
+        "age_rating_index": 0,
+        "parent_set": "set_br_playlists",
+        "favorite_override": "set_br_playlists",
+        "play_history_override": "set_br_playlists"
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2022-08-11T20:17:42.128Z",
+    "published": "2023-11-07T23:01:02.564Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+    "discoveryIntent": "PUBLIC",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_beanstalk"
+}

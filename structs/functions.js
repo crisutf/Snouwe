@@ -120,8 +120,8 @@ function getContentPages(req) {
     try {
         if (memory.build < 5.30) { 
             news.forEach(mode => {
-                contentpages[mode].news.messages[0].image = "https://api-leilos.crisu.qzz.io/images/images/leilos/png/logo_banner.png";
-                contentpages[mode].news.messages[1].image = "https://api-leilos.crisu.qzz.io/images/leilos/jpg/background.jpg";
+                contentpages[mode].news.messages[0].image = "https://backend-leilos-services.crisu.qzz.io/images/images/leilos/png/logo_banner.png";
+                contentpages[mode].news.messages[1].image = "https://backend-leilos-services.crisu.qzz.io/images/leilos/jpg/background.jpg";
             });
         }
     } catch {}
@@ -175,7 +175,7 @@ function getContentPages(req) {
                 break;
             default:
                 backgrounds[0].stage = "defaultnotris";
-                backgrounds[0].backgroundimage = "https://api-leilos.crisu.qzz.io/images/lobby/background_2048.png";
+                backgrounds[0].backgroundimage = "https://cdn.crisu.qzz.io/services/leilos/lobby/background_2048.png";
         }
 
         switch (memory.build) {
@@ -214,8 +214,8 @@ function getContentPages(req) {
             case 25.11:
                 backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/t-s25-14dos-lobby-4096x2048-2be24969eee3.jpg";
                 break;
-            case 28.30:
-                backgrounds[0].backgroundimage = `https://api-leilos.crisu.qzz.io/images/lobby/background_2048.png`;
+            case 29.00:
+                backgrounds[0].backgroundimage = "https://cdn2.unrealengine.com/br-lobby-ch5s2-4096x2304-a0879ccdaafc.jpg";
                 break;
         }
 
@@ -250,13 +250,18 @@ function getContentPages(req) {
 function getItemShop() {
     const catalog = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "responses", "catalog.json")).toString());
     const CatalogConfig = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "Config", "catalog_config.json").toString()));
+    
+    const todayAtMidnight = new Date();
+    todayAtMidnight.setHours(24, 0, 0, 0);
+    const todayOneMinuteBeforeMidnight = new Date(todayAtMidnight.getTime() - 60000);
+    const isoDate = todayOneMinuteBeforeMidnight.toISOString();
 
     try {
         for (let value in CatalogConfig) {
             if (!Array.isArray(CatalogConfig[value].itemGrants)) continue;
             if (CatalogConfig[value].itemGrants.length == 0) continue;
             
-            const CatalogEntry = {"devName":"","offerId":"","fulfillmentIds":[],"dailyLimit":-1,"weeklyLimit":-1,"monthlyLimit":-1,"categories":[],"prices":[{"currencyType":"MtxCurrency","currencySubType":"","regularPrice":0,"finalPrice":0,"saleExpiration":"9999-12-02T01:12:00Z","basePrice":0}],"meta":{"SectionId":"Featured","TileSize":"Small"},"matchFilter":"","filterWeight":0,"appStoreId":[],"requirements":[],"offerType":"StaticPrice","giftInfo":{"bIsEnabled":true,"forcedGiftBoxTemplateId":"","purchaseRequirements":[],"giftRecordIds":[]},"refundable":false,"metaInfo":[{"key":"SectionId","value":"Featured"},{"key":"TileSize","value":"Small"}],"displayAssetPath":"","itemGrants":[],"sortPriority":0,"catalogGroupPriority":0};
+            const CatalogEntry = {"devName":"","offerId":"","fulfillmentIds":[],"dailyLimit":-1,"weeklyLimit":-1,"monthlyLimit":-1,"categories":[],"prices":[{"currencyType":"MtxCurrency","currencySubType":"","regularPrice":0,"finalPrice":0,"saleExpiration":"9999-12-02T01:12:00Z","basePrice":0}],"meta":{"SectionId":"Featured","TileSize":"Small"},"matchFilter":"","filterWeight":0,"appStoreId":[],"requirements":[],"offerType":"StaticPrice","giftInfo":{"bIsEnabled":true,"forcedGiftBoxTemplateId":"","purchaseRequirements":[],"giftRecordIds":[]},"refundable":true,"metaInfo":[{"key":"SectionId","value":"Featured"},{"key":"TileSize","value":"Small"}],"displayAssetPath":"","itemGrants":[],"sortPriority":0,"catalogGroupPriority":0};
 
             let i = catalog.storefronts.findIndex(p => p.name == (value.toLowerCase().startsWith("daily") ? "BRDailyStorefront" : "BRWeeklyStorefront"));
             if (i == -1) continue;
@@ -282,7 +287,7 @@ function getItemShop() {
                 "currencySubType": "",
                 "regularPrice": CatalogConfig[value].price,
                 "finalPrice": CatalogConfig[value].price,
-                "saleExpiration": "9999-12-02T01:12:00Z",
+                "saleExpiration": isoDate,
                 "basePrice": CatalogConfig[value].price
             }];
 
@@ -479,6 +484,26 @@ function PlaylistNames(playlist) {
     if (playlistLower.includes("playlist_habanero_trios")) return "Playlist_Habanero_Trios";
     if (playlistLower.includes("playlist_juno")) return "Playlist_Juno";
     if (playlistLower.includes("playlist_papaya")) return "Playlist_Papaya";
+    if (playlistLower.includes("playlist_beanstalk")) return "Playlist_Beanstalk";
+    if (playlistLower.includes("playlist_pilgrimquickplay")) return "Playlist_PilgrimQuickPlay";
+    if (playlistLower.includes("playlist_quail")) return "Playlist_Quail";
+    if (playlistLower.includes("playlist_ripehoneydew")) return "Playlist_RipeHoneydew";
+    if (playlistLower.includes("playlist_durian")) return "Playlist_Durian";
+    if (playlistLower.includes("playlist_stridemice")) return "Playlist_StrideMice";
+    if (playlistLower.includes("playlist_figmentsolo")) return "Playlist_FigmentSolo";
+    if (playlistLower.includes("playlist_figmentduo")) return "Playlist_FigmentDuo";
+    if (playlistLower.includes("playlist_figmentsquad")) return "Playlist_FigmentSquad";
+    if (playlistLower.includes("playlist_limerock")) return "Playlist_LimeRock";
+    if (playlistLower.includes("playlist_skymango")) return "Playlist_SkyMango";
+    if (playlistLower.includes("playlist_smarttunapre")) return "Playlist_SmartTunaPre";
+    if (playlistLower.includes("playlist_sunflowersolo")) return "Playlist_SunflowerSolo";
+    if (playlistLower.includes("playlist_dashberrysolo")) return "Playlist_DashberrySolo";
+    if (playlistLower.includes("playlist_punchberrysolo")) return "Playlist_PunchberrySolo";
+    if (playlistLower.includes("playlist_timberstakesolo")) return "Playlist_TimberstakeSolo";
+    if (playlistLower.includes("playlist_sourspawnsolo")) return "Playlist_SourspawnSolo";
+    if (playlistLower.includes("playlist_piperbootsolo")) return "Playlist_PiperbootSolo";
+    if (playlistLower.includes("playlist_matchmistsolo")) return "Playlist_MatchmistSolo";
+    if (playlistLower.includes("playlist_forbiddenfruitnobuildbrsolo")) return "Playlist_ForbiddenFruitNoBuildBRSolo";
 
     // Si no coincide con nada, intentamos devolverlo en PascalCase si es el formato de playlist_...
     if (playlistLower.startsWith("playlist_")) {

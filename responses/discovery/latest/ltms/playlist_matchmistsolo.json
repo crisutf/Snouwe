@@ -1,0 +1,72 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_matchmistsolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg6.png"
+        },
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "predownload_link_codes": [
+            "3859-0374-5733"
+        ],
+        "alt_title": {
+            "de": "ELITE\n STRONGHOLD",
+            "ru": "ОПЛОТ\n ЭЛИТЫ",
+            "ko": "엘리트\n 스트롱홀드",
+            "pt": "FORTALEZA\nDA ELITE",
+            "zh-hant": "菁英要塞",
+            "zh-hans": "精英\n 据点",
+            "it": "FORTEZZA\n ÉLITE",
+            "fr": "BASTION DE\nL'ÉLITE",
+            "es": "FORTALEZA\n DE LA ÉLITE",
+            "ar": "معقل\nالنخبة",
+            "vi": "PHÁO ĐÀI\n TINH NHUỆ",
+            "th": "ป้อมปราการ\n อีลีท",
+            "ja": "エリート\nの拠点",
+            "id": "BENTENG\n ELITE",
+            "pl": "FORTECA\nELITY",
+            "es-419": "FORTALEZA\n DE LA ÉLITE",
+            "tr": "ELİT\n MINTIKASI"
+        },
+        "favorite_override": "set_br_playlists",
+        "parent_set": "set_br_playlists",
+        "play_history_override": "set_br_playlists",
+        "block_cascading_data": "true",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map6.png",
+        "product_tag": "Product.BlastBerry.Build",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map6.png",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map6.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map6.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map6.png"
+        },
+        "title": "Elite Stronghold",
+        "matchmaking": {
+            "override_playlist": "playlist_matchmistsolo"
+        },
+        "age_rating_index": 0
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2025-05-05T20:29:16.611Z",
+    "published": "2025-05-05T20:29:16.611Z",
+    "updated": "2025-08-26T20:32:22.689Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2025-05-05T20:29:16.542Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_matchmistsolo"
+}

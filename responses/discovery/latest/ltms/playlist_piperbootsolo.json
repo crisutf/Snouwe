@@ -1,0 +1,72 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_piperbootsolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg5.png"
+        },
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "predownload_link_codes": [
+            "7674-2102-3124"
+        ],
+        "alt_title": {
+            "de": "SURF CITY",
+            "ru": "СЁРФ-СИТИ",
+            "ko": "서프 시티",
+            "pt": "ILHA DO SURFE",
+            "zh-hant": "浪城",
+            "zh-hans": "踏浪都市",
+            "it": "SOSTA SURF",
+            "fr": "CONTRÉES DU SURF",
+            "es": "CIUDAD SURF",
+            "ar": "مدينة الأمواج",
+            "vi": "THÀNH PHỐ SÓNG XÔ",
+            "th": "เซิร์ฟซิตี้",
+            "ja": "サーフシティ",
+            "id": "KOTA SELANCAR",
+            "pl": "STOLICA SURFERÓW",
+            "es-419": "CIUDAD SURF",
+            "tr": "SÖRF ŞEHRİ"
+        },
+        "favorite_override": "set_br_playlists",
+        "parent_set": "set_br_playlists",
+        "play_history_override": "set_br_playlists",
+        "block_cascading_data": "true",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+        "product_tag": "Product.BlastBerry.Build",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg"
+        },
+        "title": "Surf City",
+        "matchmaking": {
+            "override_playlist": "playlist_piperbootsolo"
+        },
+        "age_rating_index": 0
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2025-05-05T20:29:16.611Z",
+    "published": "2025-05-05T20:29:16.611Z",
+    "updated": "2025-08-26T20:32:22.689Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2025-05-05T20:29:16.542Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_piperbootsolo"
+}

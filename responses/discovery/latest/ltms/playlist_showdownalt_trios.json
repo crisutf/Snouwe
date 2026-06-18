@@ -6,21 +6,21 @@
     "linkType": "BR:Playlist",
     "metadata": {
         "age_rating_index": 0,
-        "parent_set": "set_br_playlists",
-        "favorite_override": "set_br_playlists",
-        "play_history_override": "set_br_playlists",
+        "parent_set": "set_showdownalt_playlists",
+        "favorite_override": "set_showdownalt_playlists",
+        "play_history_override": "set_showdownalt_playlists",
         "alt_title": {
-            "en": "Arena Trios",
-            "es": "Arena Tríos",
-            "es-419": "Arena Tríos"
+            "en": "Arena TRIOS",
+            "es": "Arena TRIOS",
+            "es-419": "Arena TRIOS"
         },
-        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
         "product_tag": "Product.BR.Build.Trios",
         "image_urls": {
-            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
-            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
-            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
-            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png"
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_showdownalt_trios"
@@ -31,8 +31,8 @@
     "version": 1,
     "linkCode": "playlist_showdownalt_trios",
     "active": true,
-    "disabled": false,
-    "lockStatus": "UNLOCKED",
+    "disabled": true,
+    "lockStatus": "LOCKED",
     "lockStatusReason": "NONE",
     "isVisible": true,
     "created": "2024-01-01T00:00:00.000Z",

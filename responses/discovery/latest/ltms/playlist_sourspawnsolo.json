@@ -1,0 +1,72 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_sourspawnsolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/nitemare_lobbie.png"
+        },
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "predownload_link_codes": [
+            "3545-0240-1020"
+        ],
+        "alt_title": {
+            "de": "NITEMARE ISLAND",
+            "ru": "ОСТРОВ КОШМАРОВ",
+            "pt": "ILHA DO PESADELO",
+            "zh-hant": "噩夢島",
+            "zh-hans": "梦魇小岛",
+            "kr": "악몽 섬",
+            "it": "ISOLA DA INCUBO",
+            "fr": "ÎLE AUX CAUCHEMARS",
+            "es": "ISLA PESADILLA",
+            "ar": "جزيرة الكوابيس",
+            "vi": "HÒN ĐẢO ÁC MỘNG",
+            "th": "เกาะไนต์แมร์",
+            "ja": "ナイトメア・アイランド",
+            "id": "PULAU NITEMARE",
+            "pl": "STRACHOWISKO",
+            "es-419": "ISLA PESADILLA",
+            "tr": "KÂBUSLAR ADASI"
+        },
+        "favorite_override": "set_br_playlists",
+        "parent_set": "set_br_playlists",
+        "play_history_override": "set_br_playlists",
+        "block_cascading_data": "true",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
+        "product_tag": "Product.BlastBerry.Build",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg"
+        },
+        "title": "Nitemare Island",
+        "matchmaking": {
+            "override_playlist": "playlist_sourspawnsolo"
+        },
+        "age_rating_index": 0
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2025-05-05T20:29:16.611Z",
+    "published": "2025-05-05T20:29:16.611Z",
+    "updated": "2025-08-26T20:32:22.689Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2025-05-05T20:29:16.542Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_sourspawnsolo"
+}

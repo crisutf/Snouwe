@@ -39,7 +39,7 @@ global.clientTokens = tokens.clientTokens;
 global.exchangeCodes = [];
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://127.0.0.1/leilos_data", () => {
-    log.backend("Snouwe successfully connected to MongoDB!");
+    log.backend("Leilos successfully connected to MongoDB!");
 });
 
 mongoose.connection.on("error", err => {

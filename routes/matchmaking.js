@@ -14,7 +14,7 @@ app.get("/fortnite/api/game/v2/matchmakingservice/ticket/player/*", verifyToken,
     const parts = bucketId.split(":");
     buildUniqueId[req.user.accountId] = parts[0];
 
-    const matchmakerUrl = (process.env.MATCHMAKER_IP || "ws://api-leilos.crisu.qzz.io:8080").replace(/"/g, "").trim();
+    const matchmakerUrl = (process.env.MATCHMAKER_IP || "ws://backend-leilos-services.crisu.qzz.io:8080").replace(/"/g, "").trim();
 
     res.json({
         "serviceUrl": matchmakerUrl,

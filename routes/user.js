@@ -76,6 +76,27 @@ app.get("/persona/api/public/account/lookup", async (req, res) => {
     });
 });
 
+app.get("/api/v1/user/profile/:discordId", async (req, res) => {
+    try {
+        const { discordId } = req.params;
+        const user = await User.findOne({ discordId, banned: false }).lean();
+        
+        if (!user) {
+            return res.status(404).json({ error: "User not found" });
+        }
+
+        res.json({
+            username: user.username,
+            avatar: user.avatar,
+            accountId: user.accountId,
+            isAdmin: user.isAdmin
+        });
+    } catch (err) {
+        console.error("[Profile API] Error:", err);
+        res.status(500).json({ error: "Internal server error" });
+    }
+});
+
 app.get("/api/v1/search/:accountId", async (req, res) => {
     let response = [];
 

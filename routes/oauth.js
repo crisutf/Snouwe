@@ -554,7 +554,7 @@ router.get('/api/v2/discord/callback', async (req, res) => {
             <div class="card">
               <h1>❌ ACCESO DENEGADO</h1>
               <p>Para poder iniciar sesión y crear tu cuenta, debes estar dentro de nuestro servidor oficial de Discord.</p>
-              <a href="https://mini.crisu.qzz.io/?d=LeilosDiscord" class="btn">UNIRSE AL SERVIDOR</a>
+              <a href="https://mini.crisu.qzz.io/leilos_discord" class="btn">UNIRSE AL SERVIDOR</a>
             </div>
           </body>
         </html>

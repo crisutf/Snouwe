@@ -1,0 +1,74 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_sunflowersolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg1.png"
+        },
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "predownload_link_codes": [
+            "6990-4594-4017"
+        ],
+        "alt_title": {
+            "de": "Wagnis",
+            "ru": "Триумфант",
+            "ko": "모험",
+            "pt": "Aventura",
+            "zh-hant": "冒險",
+            "zh-hans": "冒险",
+            "it": "Ventura",
+            "fr": "Victoire",
+            "es": "Aventura",
+            "ar": "المغامرة",
+            "vi": "Mạo Hiểm",
+            "th": "เสี่ยงภัย",
+            "ja": "ベンチャー",
+            "id": "Venture",
+            "pl": "Odważni Odkrywcy",
+            "es-419": "Aventura",
+            "tr": "Gümüş"
+        },
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+        "product_tag": "Product.BlastBerry.Build",
+        "dynamicXp": {
+            "uniqueGameVersion": 1,
+            "calibrationPhase": "DataAnalysis"
+        },
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg"
+        },
+        "title": "Venture",
+        "matchmaking": {
+            "override_playlist": "playlist_sunflowersolo"
+        },
+        "age_rating_index": 0,
+        "parent_set": "set_br_playlists",
+        "favorite_override": "set_br_playlists",
+        "play_history_override": "set_br_playlists"
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2024-08-13T18:55:39.361Z",
+    "published": "2024-08-13T18:55:39.361Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2024-08-13T18:55:39.365Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_sunflowersolo"
+}

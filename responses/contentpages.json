@@ -9,8 +9,14 @@
       "_type": "CommonUI Simple Message",
       "message": {
         "_type": "CommonUI Simple Message Base",
-        "title": "SNOUWE (¬‿¬)",
-        "body": "Proyecto Leilos - Web: leilos.qzz.io"
+        "title": "LEILOS - EN CONSTRUCCIÓN",
+        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+        "hidden": false,
+        "websiteButtonText": "LEILOS Discord Server",
+        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+        "spotlight": true
       }
     },
     "_activeDate": "2017-07-19T13:14:04.490Z",
@@ -23,8 +29,14 @@
       "_type": "CommonUI Simple Message",
       "message": {
         "_type": "CommonUI Simple Message Base",
-        "title": "LEILOS (¬‿¬)",
-        "body": "Bienvenido a Snouwe!\nOfficial Web: leilos.qzz.io.\nDisfruta de la mejor experiencia."
+        "title": "LEILOS - EN CONSTRUCCIÓN",
+        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+        "hidden": false,
+        "websiteButtonText": "LEILOS Discord Server",
+        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+        "spotlight": true
       }
     },
     "_activeDate": "2017-08-25T20:35:56.304Z",
@@ -36,13 +48,15 @@
     "overrideablemessage": {
       "_type": "CommonUI Simple Message",
       "message": {
-        "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
         "hidden": false,
         "_type": "CommonUI Simple Message Base",
-        "adspace": "ENJOY!",
-        "title": "LEILOS (¬‿¬)",
-        "body": "Web: leilos.qzz.io",
-        "spotlight": false
+        "title": "LEILOS - EN CONSTRUCCIÓN",
+        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+        "spotlight": true,
+        "websiteButtonText": "LEILOS Discord Server",
+        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg"
       }
     },
     "_activeDate": "2017-08-30T03:08:31.687Z",
@@ -210,26 +224,7 @@
   "savetheworldnews": {
     "news": {
       "_type": "Battle Royale News",
-      "messages": [
-        {
-          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-          "hidden": false,
-          "_type": "CommonUI Simple Message Base",
-          "adspace": "DISCORD!",
-          "title": "LEILOS (¬‿¬)",
-          "body": "Web: https://leilos.qzz.io",
-          "spotlight": false
-        },
-        {
-          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-          "hidden": false,
-          "_type": "CommonUI Simple Message Base",
-          "adspace": "ENJOY!",
-          "title": "LEILOS (¬‿¬)",
-          "body": "Web: https://leilos.qzz.io",
-          "spotlight": false
-        }
-      ]
+      "messages": []
     },
     "_title": "SaveTheWorldNews",
     "_noIndex": false,
@@ -284,28 +279,28 @@
       "_type": "Playlist Information",
       "playlists": [
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_DefaultSolo",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Solo",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Duos",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "playlist_name": "Playlist_ShowdownAlt_Trios",
           "hidden": false,
           "special_border": "None",
@@ -331,10 +326,10 @@
       "tournaments": [
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaSolo",
@@ -342,7 +337,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Solo",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -351,15 +346,15 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         },
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaDuo",
@@ -367,7 +362,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Dúo",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -376,15 +371,15 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         },
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "loading_screen_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_back_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "_type": "Tournament Display Info",
           "pin_earned_text": ":D",
           "tournament_display_id": "ArenaTrios",
@@ -392,7 +387,7 @@
           "schedule_info": "Always Available",
           "primary_color": "FFFFFF",
           "flavor_description": "Compite para subir de división",
-          "poster_front_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "poster_front_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "short_format_title": "Arena Tríos",
           "title_line_1": "Arena",
           "shadow_color": "1B1B1B",
@@ -401,7 +396,7 @@
           "long_format_title": "Modo Arena",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://api-leilos.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
+          "playlist_tile_image": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/png/Arena_Playlist.png",
           "base_color": "FFFFFF"
         }
       ],
@@ -416,15 +411,7 @@
   "emergencynotice": {
     "news": {
       "_type": "Battle Royale News",
-      "messages": [
-        {
-          "hidden": false,
-          "_type": "CommonUI Simple Message Base",
-          "title": "PROYECTO LEILOS - SNOUWE",
-          "body": "Visita nuestra web: leilos.qzz.io",
-          "spotlight": true
-        }
-      ]
+      "messages": []
     },
     "_title": "emergencynotice",
     "_noIndex": false,
@@ -440,15 +427,7 @@
     "jcr:baseVersion": "a7ca237317f1e771e921e2-7f15-4485-b2e2-553b809fa363",
     "emergencynotices": {
       "_type": "Emergency Notices",
-      "emergencynotices": [
-        {
-          "gamemodes": [],
-          "hidden": false,
-          "_type": "CommonUI Emergency Notice Base",
-          "title": "LEILOS (¬‿¬)",
-          "body": "Web: https://leilos.qzz.io"
-        }
-      ]
+      "emergencynotices": []
     },
     "_activeDate": "2018-08-06T19:00:26.217Z",
     "lastModified": "2021-12-01T15:55:56.012Z",
@@ -5431,7 +5410,7 @@
     "_locale": "en-US"
   },
   "lobby": {
-    "backgroundimage": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+    "backgroundimage": "https://backend-leilos-services.crisu.qzz.io/images/leilos/png/background_logo.png",
     "stage": "seasonx",
     "_title": "lobby",
     "_activeDate": "2019-05-31T21:24:39.892Z",
@@ -5444,24 +5423,24 @@
       "motds": [
         {
           "entryType": "Website",
-          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
-          "tileImage": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+          "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
           "videoMute": false,
           "hidden": false,
-          "tabTitleOverride": "LEILOS (¬‿¬)",
+          "tabTitleOverride": "Noticias Leilos",
           "_type": "CommonUI Simple Message MOTD",
-          "title": "Welcome to LEILOS (¬‿¬)",
-          "body": "Web: https://leilos.qzz.io",
+          "title": "LEILOS - EN CONSTRUCCIÓN",
+          "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
           "offerAction": "ShowOfferDetails",
           "videoLoop": false,
           "videoStreamingEnabled": false,
-          "sortingPriority": 1,
+          "sortingPriority": 100,
           "websiteButtonText": "LEILOS Discord Server",
-          "websiteURL": "https://mini.crisu.qzz.io/?d=LeilosDiscord",
-          "id": "61fb3dd8-f23d-45cc-9058-058ab223ba5c",
+          "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+          "id": "motd_1",
           "videoAutoplay": false,
-          "videoFullscreen": false,
-          "spotlight": false
+          "videoFullscreen": true,
+          "spotlight": true
         }
       ],
       "platform_messages": [
@@ -5482,13 +5461,25 @@
       ],
       "messages": [
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "entryType": "Website",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+          "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+          "videoMute": false,
           "hidden": false,
-          "_type": "CommonUI Simple Message Base",
-          "adspace": "ENJOY!",
-          "title": "LEILOS (¬‿¬)",
-          "body": "Web: https://leilos.qzz.io",
-          "spotlight": false
+          "tabTitleOverride": "Noticias Leilos",
+          "_type": "CommonUI Simple Message MOTD",
+          "title": "LEILOS - EN CONSTRUCCIÓN",
+          "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+          "offerAction": "ShowOfferDetails",
+          "videoLoop": false,
+          "videoStreamingEnabled": false,
+          "sortingPriority": 100,
+          "websiteButtonText": "LEILOS Discord Server",
+          "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+          "id": "motd_1",
+          "videoAutoplay": false,
+          "videoFullscreen": true,
+          "spotlight": true
         }
       ]
     },
@@ -5558,7 +5549,7 @@
       "_type": "Battle Royale News",
       "messages": [
         {
-          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/leilos/png/background_logo.png",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
@@ -5577,5 +5568,39 @@
     "lastModified": "2019-10-31T20:35:52.569Z",
     "_locale": "en-US"
   },
-  "_suggestedPrefetch": []
+  "_suggestedPrefetch": [],
+  "battleroyalenewsv2": {
+    "jcr:isCheckedOut": true,
+    "_title": "battleroyalenewsv2",
+    "jcr:baseVersion": "a7ca237317f1001bc00b21-4f96-419b-a010-b9cc6d701047",
+    "_activeDate": "2020-01-21T14:00:00.000Z",
+    "lastModified": "2021-03-02T13:28:16.892Z",
+    "_locale": "es",
+    "news": {
+      "_type": "battleroyalenews",
+      "motds": [
+        {
+          "entryType": "Website",
+          "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+          "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+          "videoMute": false,
+          "hidden": false,
+          "tabTitleOverride": "Noticias Leilos",
+          "_type": "CommonUI Simple Message MOTD",
+          "title": "LEILOS - EN CONSTRUCCIÓN",
+          "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
+          "offerAction": "ShowOfferDetails",
+          "videoLoop": false,
+          "videoStreamingEnabled": false,
+          "sortingPriority": 100,
+          "websiteButtonText": "LEILOS Discord Server",
+          "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
+          "id": "motd_1",
+          "videoAutoplay": false,
+          "videoFullscreen": true,
+          "spotlight": true
+        }
+      ]
+    }
+  }
 }

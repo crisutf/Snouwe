@@ -1,0 +1,220 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_pilgrimquickplay",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/main-stage_lobbie_bg.png"
+        },
+        "internal_description_tags": [
+            "guitar_peripheral_enabled"
+        ],
+        "blog_category": "fortnite-festival",
+        "frontend_plugin": "SparksFrontend",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg"
+        },
+        "matchmaking": {
+            "override_playlist": "playlist_pilgrimquickplay"
+        },
+        "title": "Festival Main Stage",
+        "video_vuid": "TmspZBuurWGUxdzbkg",
+        "alt_square_image_urls": {
+            "de": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "ru": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "ko": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "pt-BR": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "zh-hans": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "it": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "fr": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "es": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "ar": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "ja": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "pl": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "es-419": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            },
+            "tr": {
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+            }
+        },
+        "matchmakingV2": {
+            "allowSquadFillOption": true,
+            "allowJoinInProgress": false,
+            "crossplayRequired": true,
+            "maxPlayers": 4,
+            "maxSocialPartySize": 4,
+            "isRanked": false,
+            "maxTeamCount": 1,
+            "allowPrivateMatches": false,
+            "maxTeamSize": 4
+        },
+        "alt_image_urls": {
+            "de": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg"
+            },
+            "ru": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg"
+            },
+            "ko": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg"
+            },
+            "pt-BR": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg"
+            },
+            "zh-hans": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg"
+            },
+            "it": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg"
+            },
+            "fr": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg"
+            },
+            "es": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg"
+            },
+            "ar": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg"
+            },
+            "ja": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg"
+            },
+            "pl": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg"
+            },
+            "es-419": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg"
+            },
+            "tr": {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg"
+            }
+        },
+        "alt_title": {
+            "de": "Festival: Hauptbühne",
+            "ru": "Главная сцена Fortnite Festival",
+            "ko": "페스티벌 메인 스테이지",
+            "pt-BR": "Palco Principal do Festival",
+            "zh-hans": "音乐节主舞台",
+            "it": "Palco principale del Festival",
+            "fr": "Scène principale de Fortnite Festival",
+            "es": "Escenario principal de Festival",
+            "ar": "مسرح Festival الرئيسي",
+            "ja": "Festival メインステージ",
+            "pl": "Scena Główna w Fortnite Festival",
+            "es-419": "Escenario principal de Festival",
+            "tr": "Festival Ana Sahnesi"
+        },
+        "alt_tagline": {
+            "de": "Spiele mit Freunden in einer Band oder tritt solo auf der Bühne auf mit Hits von deinen Lieblingskünstlern in Fortnite Festival! Spiele vorgestellte wechselnde Jam-Songs auf der Hauptbühne. Tritt gegen Freunde an und schaue, wer die beste Performance bietet, oder schließt euch zusammen und erklimmt die Bestenlisten. Das Festival fängt gerade erst an und schon bald werden weitere Jam-Songs, Musikikonen, Konzerte und Bühnen erscheinen. Betritt die Bühne in Fortnite Festival!",
+            "ru": "Выступайте в группе с друзьями или исполняйте любимые композиции соло и покорите сцену в Fortnite Festival! Играйте на Главной сцене хиты из регулярно обновляющейся подборки. Соревнуйтесь с друзьями за звание лучшего исполнителя или покоряйте мировые списки лидеров одной группой. Фестиваль только начинается! Впереди много новых песен, звёзд, концертов и площадок. Сцена ждёт в Fortnite Festival!",
+            "ko": "친구와 함께 밴드를 결성하여 연주하거나, 포트나이트 페스티벌에서 무대에 올라가 좋아하는 아티스트가 작곡한 히트곡을 솔로로 연주하세요! 메인 스테이지에서 잼 트랙 추천 로테이션을 연주해 보세요. 최고의 공연을 위해 친구들과 함께 경쟁하거나, 팀을 이뤄 순위를 올려보세요. 페스티벌은 이제 시작입니다. 조만간 잼 트랙과 음악계의 아이콘, 콘서트, 스테이지가 더 추가됩니다! 포트나이트 페스티벌에서 나만의 무대에 오르세요!",
+            "pt-BR": "Suba ao palco e toque numa banda com a galera ou solo, interpretando sucessos dos seus artistas favoritos no Fortnite Festival! Toque uma seleção rotativa de Músicas no Palco Principal. Dispute com outras pessoas ou forme sua banda para alcançar o topo da tabela de liderança. O festival está só começando: muitas Músicas, ícones musicais, shows e palcos ainda estão por vir. Suba no palco no Fortnite Festival!",
+            "zh-hans": "参加《Fortnite 音乐节》，在舞台上独奏或与好友组队演奏自己最爱音乐家的热门曲目！在主舞台上轮换演奏精选即兴曲目。与好友同台竞演，实现最佳表现，或组队冲击排行榜榜首。音乐节才刚刚拉开帷幕，接下来会很快推出更多即兴曲目、音乐偶像、音乐会和舞台。在《Fortnite 音乐节》中登台演出吧！",
+            "it": "Suona in una band con gli amici o esibisciti da solista sul palco con i grandi successi dei tuoi artisti preferiti in Fortnite Festival! Una selezione di tracce Jam in evidenza ti aspetta sul Palco principale. Competi a colpi di performance contro gli amici o unisciti a loro per scalare le classifiche. Il Festival è solo all'inizio, con tante nuove tracce Jam, icone musicali, concerti e palchi presto in arrivo. Sali sul palco in Fortnite Festival!",
+            "fr": "Jouez en groupe avec des amis ou en solo sur les chansons de vos artistes préférés dans Fortnite Festival ! Montez sur la scène principale en choisissant parmi une rotation de pistes musicales à la une. Faites une meilleure performance que vos amis ou montez un groupe et hissez-vous en haut du classement. Ce n'est que le début. De nouveaux concerts, pistes musicales, icônes de la musique et concerts arriveront prochainement. Faites votre entrée sur scène dans Fortnite Festival !",
+            "es": "¡Súbete al escenario con una banda de amigos o en solitario y toca los temazos de tus artistas favoritos en Fortnite Festival! En el escenario principal podrás tocar una rotación de temas de improvisación. Compite contra amigos para ver quién actúa mejor o forma equipo para subir en los marcadores. El festival acaba de comenzar y pronto habrá más temas de improvisación, ídolos musicales, conciertos y escenarios. ¡Sube al escenario en Fortnite Festival!",
+            "ar": "اعزف في فرقة مع الأصدقاء أو قم بأداء منفرد على المسرح مع أغانٍ رائجة للفنانين المفضلين لديك في Fortnite Festival! اعزف مقطوعات العزف المميزة المتناوبة على المسرح الرئيسي. تنافس مع الأصدقاء على أفضل أداء أو انضم إلى فريق للارتقاء في لوحات المتصدرين. بدأ المهرجان للتو مع المزيد من مقطوعات العزف وأيقونات الموسيقى وحفلات ومسارح قادمة قريبًا. هيمن على المسرح في Fortnite Festival!",
+            "ja": "お気に入りのアーティストのヒットナンバーをステージで演奏しよう。「Fortnite Festival」ではフレンドとバンドを組んでもいいし、ソロでも楽しめるぞ！ メインステージで、ローテーションされるおすすめのジャムトラックを演奏しよう。フレンドと最高のパフォーマンスを目指して競い合ったり、チームを組んでランキングを駆け上ろう。フェスティバルはまだ始まったばかり。今後もジャムトラック、ミュージックのアイコン、コンサート、ステージが追加される予定だ。「Fortnite Festival」でステージに立とう！",
+            "pl": "Graj ze znajomymi w zespole lub występuj solo, wykonując popularne utwory swoich ulubionych artystów w Fortnite Festival! Na Scenie Głównej można wykonywać wyróżnioną rotację ścieżek jamowych. Rywalizuj ze znajomymi o najlepszy występ lub połączcie siły i wspinajcie się po szczeblach tablic wyników. Festiwal dopiero się zaczyna: wkrótce do gry trafią nowe ścieżki jamowe, ikony muzyczne, koncerty i sceny. Wejdź na scenę w Fortnite Festival!",
+            "es-419": "¡Toca en una banda con amigos o interpreta las mejores canciones de tus artistas favoritos en solitario sobre el escenario de Fortnite Festival! Toca una selección variada de pistas en el Escenario principal. Compite contra tus amigos para ver quién da la mejor actuación o forma un equipo para ascender en los marcadores. El festival acaba de empezar y habrá más pistas, íconos musicales, conciertos y escenarios próximamente. ¡Sube al escenario en Fortnite Festival!",
+            "tr": "Fortnite Festival'de en sevdiğin sanatçıların en beğenilen şarkılarını ister arkadaşlarınla grup olarak çal ister tek başına sergile! Ana Sahne'de öne çıkan müzik parçalarından oluşan bir listeyi çal. En iyi performansı kimin sergileyeceğini görmek için arkadaşlarınla yarış ya da sıralamalarda yükselmek için onlarla birlik ol. Yakında gelecek daha fazla müzik parçası, müzik ikonu, konser ve sahneyle asıl festival daha yeni başlıyor. Fortnite Festival sahnesinde yerini al!"
+        },
+        "product_tag": "Product.Sparks.PilgrimQuickplay",
+        "tagline": "Play in a band with friends or perform solo on stage with hit music by your favorite artists in Fortnite Festival! On the Main Stage, play a featured rotation of Jam Tracks. Compete against friends for the best performance or team up to climb the leaderboards. The festival is just beginning with more Jam Tracks, Music Icons, concerts, and stages coming soon. Take your stage in Fortnite Festival!",
+        "extra_image_urls": [
+            {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg"
+            },
+            {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg"
+            },
+            {
+                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg"
+            }
+        ],
+        "square_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+        },
+        "age_rating_index": 0,
+        "parent_set": "set_br_playlists",
+        "favorite_override": "set_br_playlists",
+        "play_history_override": "set_br_playlists"
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2022-09-12T15:11:15.045Z",
+    "published": "2024-11-02T11:18:52.509Z",
+    "descriptionTags": [
+        "music",
+        "party game"
+    ],
+    "moderationStatus": "Approved",
+    "lastActivatedDate": "2022-09-12T15:11:15.048Z",
+    "discoveryIntent": "PUBLIC",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_pilgrimquickplay"
+}

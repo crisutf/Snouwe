@@ -1,66 +1,63 @@
 {
-    "Panels": [
-      {
-        "PanelName": "Homebar_V3",
-        "PanelDisplayName": ":D",
-        "FeatureTags": ["col:5", "homebar"],
-        "PanelType": "CuratedList",
-        "PlayHistoryType": "RecentlyPlayed",
-        "FirstPage": {
-          "results": [
-            {
-              "lastVisited": null,
-              "linkCode": "playlist_defaultsolo",
-              "isFavorite": true,
-              "globalCCU": 1,
-              "lockStatus": "LOCKED",
-              "lockStatusReason": "ComingSoon",
-              "isVisible": true
-            },
-            {
-                "lastVisited": null,
-                "linkCode": "playlist_showdownalt_solo",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "UNLOCKED",
-                "lockStatusReason": "NONE",
-                "isVisible": true
-              }
-          ],
-          "hasMore": false
-        },
-        "Pages": [
+  "Panels": [
+    {
+      "PanelName": "Homebar_V3",
+      "PanelDisplayName": ":D",
+      "FeatureTags": ["col:5", "homebar"],
+      "PanelType": "CuratedList",
+      "PlayHistoryType": "RecentlyPlayed",
+      "FirstPage": {
+        "results": [
           {
-            "results": [
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_defaultsolo",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "LOCKED",
-                "lockStatusReason": "ComingSoon",
-                "isVisible": true
-              },
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_showdownalt_solo",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "UNLOCKED",
-                "lockStatusReason": "NONE",
-                "isVisible": true
-              }
-            ],
-            "hasMore": false
+            "lastVisited": null,
+            "linkCode": "set_br_playlists",
+            "isFavorite": true,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_juno",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_beanstalk",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_pilgrimquickplay",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_showdownalt_solo",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
           }
-        ]
+        ],
+        "hasMore": false
       },
-      {
-        "PanelName": "ByEpicNoCompetitive",
-        "PanelDisplayName": "BY EPIC",
-        "FeatureTags": ["col:5"],
-        "PanelType": "AnalyticsList",
-        "FirstPage": {
+      "Pages": [
+        {
           "results": [
             {
               "lastVisited": null,
@@ -76,8 +73,8 @@
               "linkCode": "playlist_defaultduo",
               "isFavorite": false,
               "globalCCU": 1,
-              "lockStatus": "LOCKED",
-              "lockStatusReason": "ComingSoon",
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
               "isVisible": true
             },
             {
@@ -85,8 +82,8 @@
               "linkCode": "playlist_trios",
               "isFavorite": false,
               "globalCCU": 1,
-              "lockStatus": "LOCKED",
-              "lockStatusReason": "ComingSoon",
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
               "isVisible": true
             },
             {
@@ -94,81 +91,234 @@
               "linkCode": "playlist_defaultsquad",
               "isFavorite": false,
               "globalCCU": 1,
-              "lockStatus": "LOCKED",
-              "lockStatusReason": "ComingSoon",
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
               "isVisible": true
             },
             {
               "lastVisited": null,
-              "linkCode": "playlist_campaign",
+              "linkCode": "playlist_showdownalt_solo",
               "isFavorite": false,
               "globalCCU": 1,
-              "lockStatus": "LOCKED",
-              "lockStatusReason": "ComingSoon",
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
               "isVisible": true
             }
           ],
           "hasMore": false
-        },
-        "Pages": [
+        }
+      ]
+    },
+    {
+      "PanelName": "ByEpicNoCompetitive",
+      "PanelDisplayName": "BY EPIC",
+      "FeatureTags": ["col:5"],
+      "PanelType": "AnalyticsList",
+      "FirstPage": {
+        "results": [
           {
-            "results": [
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_defaultsolo",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "UNLOCKED",
-                "lockStatusReason": "NONE",
-                "isVisible": true
-              },
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_defaultduo",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "LOCKED",
-                "lockStatusReason": "ComingSoon",
-                "isVisible": true
-              },
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_trios",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "LOCKED",
-                "lockStatusReason": "ComingSoon",
-                "isVisible": true
-              },
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_defaultsquad",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "LOCKED",
-                "lockStatusReason": "ComingSoon",
-                "isVisible": true
-              },
-              {
-                "lastVisited": null,
-                "linkCode": "playlist_campaign",
-                "isFavorite": false,
-                "globalCCU": 1,
-                "lockStatus": "LOCKED",
-                "lockStatusReason": "ComingSoon",
-                "isVisible": true
-              }
-            ],
-            "hasMore": false
-          }     
-        ]
+            "lastVisited": null,
+            "linkCode": "set_br_playlists",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_juno",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_beanstalk",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_papaya",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_pilgrimquickplay",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_sunflowersolo",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_punchberrysolo",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_dashberrysolo",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_piperbootsolo",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          }
+        ],
+        "hasMore": false
       },
-      {
-        "PanelName": "Competitive",
-        "PanelDisplayName": "Competitive",
-        "FeatureTags": ["col:5"],
-        "PanelType": "CuratedList",
-        "FirstPage": {
+      "Pages": [
+        {
+          "results": [
+            {
+              "lastVisited": null,
+              "linkCode": "set_br_playlists",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_juno",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_beanstalk",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_papaya",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_pilgrimquickplay",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_sunflowersolo",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_punchberrysolo",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_dashberrysolo",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            },
+            {
+              "lastVisited": null,
+              "linkCode": "playlist_piperbootsolo",
+              "isFavorite": false,
+              "globalCCU": 1,
+              "lockStatus": "UNLOCKED",
+              "lockStatusReason": "NONE",
+              "isVisible": true
+            }
+          ],
+          "hasMore": false
+        }
+      ]
+    },
+    {
+      "PanelName": "Competitive",
+      "PanelDisplayName": "Competitive",
+      "FeatureTags": ["col:5"],
+      "PanelType": "CuratedList",
+      "FirstPage": {
+        "results": [
+          {
+            "lastVisited": null,
+            "linkCode": "playlist_test_cup",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "LOCKED",
+            "lockStatusReason": "ComingSoon",
+            "isVisible": true
+          },
+          {
+            "lastVisited": null,
+            "linkCode": "set_showdownalt_playlists",
+            "isFavorite": false,
+            "globalCCU": 1,
+            "lockStatus": "UNLOCKED",
+            "lockStatusReason": "NONE",
+            "isVisible": true
+          }
+        ],
+        "hasMore": false
+      },
+      "Pages": [
+        {
           "results": [
             {
               "lastVisited": null,
@@ -190,9 +340,106 @@
             }
           ],
           "hasMore": false
+        }
+      ]
+    }
+  ],
+  "TestCohorts": [
+    {
+      "AnalyticsId": "SNOUWE_COHORT",
+      "CohortSelector": "PlayerDeterministic",
+      "TestName": "testing",
+      "SelectionChance": 1.0,
+      "ContentPanels": [
+        {
+          "PanelName": "Homebar_V3",
+          "PanelDisplayName": ":D",
+          "FeatureTags": ["col:5", "homebar"],
+          "PanelType": "CuratedList",
+          "PlayHistoryType": "RecentlyPlayed",
+          "FirstPage": {
+            "results": [
+              {
+                "lastVisited": null,
+                "linkCode": "set_br_playlists",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              }
+            ],
+            "hasMore": false
+          }
         },
-        "Pages": [
-          {
+        {
+          "PanelName": "ByEpicNoCompetitive",
+          "PanelDisplayName": "BY EPIC",
+          "FeatureTags": ["col:5"],
+          "PanelType": "AnalyticsList",
+          "FirstPage": {
+            "results": [
+              {
+                "lastVisited": null,
+                "linkCode": "set_br_playlists",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              },
+              {
+                "lastVisited": null,
+                "linkCode": "playlist_juno",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              },
+              {
+                "lastVisited": null,
+                "linkCode": "playlist_beanstalk",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              },
+              {
+                "lastVisited": null,
+                "linkCode": "playlist_papaya",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              },
+              {
+                "lastVisited": null,
+                "linkCode": "playlist_pilgrimquickplay",
+                "isFavorite": false,
+                "globalCCU": 1,
+                "lockStatus": "UNLOCKED",
+                "lockStatusReason": "NONE",
+                "isVisible": true,
+                "age_rating_index": 0
+              }
+            ],
+            "hasMore": false
+          }
+        },
+        {
+          "PanelName": "Competitive",
+          "PanelDisplayName": "Competitive",
+          "FeatureTags": ["col:5"],
+          "PanelType": "CuratedList",
+          "FirstPage": {
             "results": [
               {
                 "lastVisited": null,
@@ -215,130 +462,9 @@
             ],
             "hasMore": false
           }
-        ]
-      }
-    ],
-    "TestCohorts": [
-      {
-        "AnalyticsId": "SNOUWE_COHORT",
-        "CohortSelector": "PlayerDeterministic",
-        "TestName": "testing",
-        "SelectionChance": 1.0,
-        "ContentPanels": [
-          {
-            "PanelName": "Homebar_V3",
-            "PanelDisplayName": ":D",
-            "FeatureTags": ["col:5", "homebar"],
-            "PanelType": "CuratedList",
-            "PlayHistoryType": "RecentlyPlayed",
-            "FirstPage": {
-              "results": [
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_defaultsolo",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                }
-              ],
-              "hasMore": false
-            }
-          },
-          {
-            "PanelName": "ByEpicNoCompetitive",
-            "PanelDisplayName": "BY EPIC",
-            "FeatureTags": ["col:5"],
-            "PanelType": "AnalyticsList",
-            "FirstPage": {
-              "results": [
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_defaultsolo",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "UNLOCKED",
-                  "lockStatusReason": "NONE",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                },
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_defaultduo",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                },
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_trios",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                },
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_defaultsquad",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                },
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_campaign",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true,
-                  "age_rating_index": 0
-                }
-              ],
-              "hasMore": false
-            }
-          },
-          {
-            "PanelName": "Competitive",
-            "PanelDisplayName": "Competitive",
-            "FeatureTags": ["col:5"],
-            "PanelType": "CuratedList",
-            "FirstPage": {
-              "results": [
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_test_cup",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "LOCKED",
-                  "lockStatusReason": "ComingSoon",
-                  "isVisible": true
-                },
-                {
-                  "lastVisited": null,
-                  "linkCode": "playlist_showdownalt_solo",
-                  "isFavorite": false,
-                  "globalCCU": 1,
-                  "lockStatus": "UNLOCKED",
-                  "lockStatusReason": "NONE",
-                  "isVisible": true
-                }
-              ],
-              "hasMore": false
-            }
-          }
-        ]
-      }
-    ],
-    "ModeSets": {}
-  }
+        }
+      ]
+    }
+  ],
+  "ModeSets": {}
+}

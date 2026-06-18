@@ -1,0 +1,59 @@
+
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "set_br_playlists",
+    "linkType": "ModeSet",
+    "metadata": {
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+        "image_urls": {
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-battle-royale.jpg"
+        },
+        "title": "Battle Royale",
+        "locale": "en",
+        "video_vuid": "DpfVjiXQaFTRgOaGFE",
+        "frontend_plugin": "BattleRoyaleExperienceFrontend",
+        "sub_link_codes": [
+            "playlist_defaultsolo",
+            "playlist_defaultduo",
+            "playlist_trios",
+            "playlist_defaultsquad"
+        ],
+        "alt_title": {
+            "de": "Battle Royale",
+            "ru": "Королевская битва",
+            "ko": "배틀로얄",
+            "pt-BR": "Battle Royale",
+            "it": "Battaglia reale",
+            "fr": "Battle Royale",
+            "zh-CN": "",
+            "es": "Battle Royale",
+            "es-MX": "Batalla campal",
+            "zh": "",
+            "ar": "باتل رويال",
+            "zh-Hant": "",
+            "ja": "バトルロイヤル",
+            "pl": "Battle Royale",
+            "es-419": "Batalla campal",
+            "tr": "Battle Royale"
+        },
+        "age_rating_index": 0
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2025-01-01T00:00:00.000Z",
+    "published": "2025-01-01T00:00:00.000Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2025-01-01T00:00:00.000Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true
+}

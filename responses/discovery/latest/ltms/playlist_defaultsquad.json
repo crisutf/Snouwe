@@ -5,39 +5,55 @@
     "mnemonic": "playlist_defaultsquad",
     "linkType": "BR:Playlist",
     "metadata": {
-        "age_rating_index": 0,
         "parent_set": "set_br_playlists",
         "favorite_override": "set_br_playlists",
         "play_history_override": "set_br_playlists",
         "alt_title": {
-            "en": "EN ESCUADRÓN",
-            "es": "EN ESCUADRÓN",
-            "es-419": "EN ESCUADRÓN"
+            "de": "Team",
+            "ru": "Бои отрядов",
+            "ko": "스쿼드",
+            "pt-BR": "Esquadrões",
+            "en": "Squad",
+            "it": "Squadre",
+            "fr": "Sections",
+            "zh-CN": "",
+            "es": "Escuadrones",
+            "es-MX": "En escuadrón",
+            "zh": "",
+            "ar": "فِرق",
+            "zh-Hant": "",
+            "ja": "スクワッド",
+            "pl": "Oddziały",
+            "es-419": "En escuadrón",
+            "tr": "Ekipli"
         },
-        "image_url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-        "product_tag": "Product.BR.Build.Squads",
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+        "product_tag": "Product.BR.Build.Squad",
         "image_urls": {
-            "url_s": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-            "url_xs": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-            "url_m": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png",
-            "url": "https://api-leilos.crisu.qzz.io/images/gamemodes/squads.png"
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png"
         },
+        "tagline": "",
         "matchmaking": {
             "override_playlist": "playlist_defaultsquad"
         },
-        "video_vuid": "taqdZkWyokbCyEFWld",
-        "title": "Squad"
+        "video_vuid": "DpfVjiXQaFTRgOaGFE",
+        "title": "Squad",
+        "age_rating_index": 0
     },
-    "version": 1,
-    "linkCode": "playlist_defaultsquad",
+    "version": 95,
     "active": true,
-    "disabled": true,
-    "lockStatus": "LOCKED",
-    "lockStatusReason": "ComingSoon",
-    "isVisible": true,
-    "created": "2024-01-01T00:00:00.000Z",
-    "published": "2024-01-01T00:00:00.000Z",
+    "disabled": false,
+    "created": "2021-10-01T00:56:42.938Z",
+    "published": "2023-11-03T08:25:06.100Z",
     "descriptionTags": [],
-    "moderationStatus": "Approved",
-    "discoveryIntent": "PUBLIC"
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2022-08-11T20:17:42.132Z",
+    "discoveryIntent": "PUBLIC",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_defaultsquad"
 }

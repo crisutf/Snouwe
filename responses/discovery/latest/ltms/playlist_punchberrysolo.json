@@ -1,0 +1,64 @@
+{
+    "namespace": "fn",
+    "accountId": "epic",
+    "creatorName": "Epic",
+    "mnemonic": "playlist_punchberrysolo",
+    "linkType": "BR:Playlist",
+    "metadata": {
+        "lobby_background_image_urls": {
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg2.png"
+        },
+        "required_content": {
+            "verse_uris": [
+                "/Fortnite.com/GameFeatures/BRRoot",
+                "/Fortnite.com/GameFeatures/CreativeRoot"
+            ]
+        },
+        "predownload_link_codes": [
+            "9725-4954-0946"
+        ],
+        "alt_title": {
+            "de": "Oase",
+            "ru": "Оазис",
+            "ko": "오아시스",
+            "pt-BR": "Oasis",
+            "ja": "オアシス",
+            "it": "Oasi",
+            "fr": "Oasis",
+            "pl": "Oaza",
+            "es": "Oasis",
+            "es-419": "Oasis",
+            "tr": "Vaha"
+        },
+        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+        "product_tag": "Product.BlastBerry.Build",
+        "image_urls": {
+            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg"
+        },
+        "title": "Oasis",
+        "matchmaking": {
+            "override_playlist": "playlist_punchberrysolo"
+        },
+        "age_rating_index": 0,
+        "parent_set": "set_br_playlists",
+        "favorite_override": "set_br_playlists",
+        "play_history_override": "set_br_playlists"
+    },
+    "version": 1,
+    "active": true,
+    "disabled": false,
+    "created": "2025-10-17T18:59:15.589Z",
+    "published": "2025-10-17T18:59:15.589Z",
+    "descriptionTags": [],
+    "moderationStatus": "Unmoderated",
+    "lastActivatedDate": "2025-10-17T18:59:15.594Z",
+    "discoveryIntent": "PUBLIC",
+    "linkState": "LIVE",
+    "lockStatus": "UNLOCKED",
+    "lockStatusReason": "NONE",
+    "isVisible": true,
+    "linkCode": "playlist_punchberrysolo"
+}
