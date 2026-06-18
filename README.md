@@ -1,5 +1,5 @@
 # Snouwe Backend - Proyecto Leilos 🚀
-> **Estado del Proyecto:** ⚠️ *En desarrollo (Beta) - Versión v28.30.*
+> **Estado del Proyecto:** ⚠️ *En desarrollo (Beta) - Versión v29.00.*
 > 
 > **No esta terminado y como que tampoco voy a terminarlo por ahora :)**
 > **Web Oficial:** [leilos.qzz.io](https://leilos.qzz.io)
