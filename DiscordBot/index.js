@@ -147,6 +147,16 @@ client.once("clientReady", () => {
 
     // Clear all existing commands
     client.application.commands.set([]);
+
+    // Actualizar el estado del bot con el número de jugadores cada 10 segundos
+    function updateBotStatus() {
+        if (global.Clients && Array.isArray(global.Clients)) {
+            client.user.setActivity(`${global.Clients.length} players`, { type: 3 }); // 3 = WATCHING
+        }
+    }
+
+    updateBotStatus();
+    setInterval(updateBotStatus, 10000);
 });
 
 client.on("interactionCreate", async interaction => {
