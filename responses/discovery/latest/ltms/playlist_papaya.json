@@ -37,12 +37,12 @@
             "es-419": "¡Te damos la bienvenida a la fiesta! Deja atrás tus armas y materiales, pasa el rato con amigos, juega partidas, perfecciona tu caída libre y mucho más. ¡La fiesta acaba de empezar!",
             "tr": "Partiye hoş geldin! Silah ve materyallerini geride bırak; arkadaşlarınla vakit geçir, oyunlar oyna, hava dalışında mükemmelliğe ulaş... Parti daha yeni başlıyor!"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg"
         },
         "tagline": "Welcome to the Party! Leave your weapons and mats behind and hang out with friends, play games, perfect your skydive and more. The party’s just getting started!",
         "matchmaking": {

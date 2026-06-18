@@ -27,13 +27,13 @@
             "es-419": "En trío",
             "tr": "Üçlü"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
         "product_tag": "Product.BR.Build.Trio",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_trios"

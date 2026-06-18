@@ -86,12 +86,12 @@
                 "es-419": "En solitario",
                 "tr": "Tekli"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
             "product_tag": "Product.BR.Build.Solo",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_defaultsolo"
@@ -142,13 +142,13 @@
                 "es-419": "En dúo",
                 "tr": "Çiftli"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
             "product_tag": "Product.BR.Build.Duo",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_defaultduo"
@@ -199,13 +199,13 @@
                 "es-419": "En trío",
                 "tr": "Üçlü"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
             "product_tag": "Product.BR.Build.Trio",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/trios.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/trios.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_trios"
@@ -254,13 +254,13 @@
                 "es-419": "En escuadrón",
                 "tr": "Ekipli"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/squads.png",
             "product_tag": "Product.BR.Build.Squad",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/squads.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/squads.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/squads.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/squads.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/squads.png"
             },
             "tagline": "",
             "matchmaking": {
@@ -290,12 +290,12 @@
         "mnemonic": "set_showdownalt_playlists",
         "linkType": "ModeSet",
         "metadata": {
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png"
             },
             "title": "Arena",
             "locale": "es",
@@ -427,13 +427,13 @@
                 "es": "Arena TRIOS",
                 "es-419": "Arena TRIOS"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
             "product_tag": "Product.BR.Build.Trios",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png"
             },
             "matchmaking": {
                 "override_playlist": "playlist_showdownalt_trios"
@@ -461,19 +461,19 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/main-stage_lobbie_bg.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/main-stage_lobbie_bg.png"
             },
             "internal_description_tags": [
                 "guitar_peripheral_enabled"
             ],
             "blog_category": "fortnite-festival",
             "frontend_plugin": "SparksFrontend",
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-main-stage.jpg",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-main-stage.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-main-stage.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-main-stage.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-main-stage.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-main-stage.jpg"
             },
             "matchmaking": {
                 "override_playlist": "playlist_pilgrimquickplay"
@@ -482,43 +482,43 @@
             "video_vuid": "TmspZBuurWGUxdzbkg",
             "alt_square_image_urls": {
                 "de": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "ru": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "ko": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "pt-BR": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "zh-hans": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "it": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "fr": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "es": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "ar": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "ja": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "pl": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "es-419": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 },
                 "tr": {
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
                 }
             },
             "matchmakingV2": {
@@ -534,69 +534,69 @@
             },
             "alt_image_urls": {
                 "de": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/de-fortnite-main-stage.jpg"
                 },
                 "ru": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ru-fortnite-main-stage.jpg"
                 },
                 "ko": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/kr-fortnite-main-stage.jpg"
                 },
                 "pt-BR": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pt-br-fortnite-main-stage.jpg"
                 },
                 "zh-hans": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/zhcn-fortnite-main-stage.jpg"
                 },
                 "it": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/it-fortnite-main-stage.jpg"
                 },
                 "fr": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/fr-fortnite-main-stage.jpg"
                 },
                 "es": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-fortnite-main-stage.jpg"
                 },
                 "ar": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/ar-fortnite-main-stage.jpg"
                 },
                 "ja": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/jp-fortnite-main-stage.jpg"
                 },
                 "pl": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/pl-fortnite-main-stage.jpg"
                 },
                 "es-419": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/es-mx-fortnite-main-stage.jpg"
                 },
                 "tr": {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/tr-fortnite-main-stage.jpg"
                 }
             },
             "alt_title": {
@@ -633,23 +633,23 @@
             "tagline": "Play in a band with friends or perform solo on stage with hit music by your favorite artists in Fortnite Festival! On the Main Stage, play a featured rotation of Jam Tracks. Compete against friends for the best performance or team up to climb the leaderboards. The festival is just beginning with more Jam Tracks, Music Icons, concerts, and stages coming soon. Take your stage in Fortnite Festival!",
             "extra_image_urls": [
                 {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-1.jpg"
                 },
                 {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-gameplaytrailer-2.jpg"
                 },
                 {
-                    "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
-                    "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
-                    "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/lemoncart-mainstage.jpg"
+                    "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                    "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-mainstage.jpg",
+                    "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/lemoncart-mainstage.jpg"
                 }
             ],
             "square_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/main-stage/en-discoverytile-mainstage.jpg"
             },
             "age_rating_index": 0
         },
@@ -677,16 +677,16 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/lego/lego_lobbie_bg.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/lego/lego_lobbie_bg.png"
             },
             "frontend_plugin": "JunoFrontendUI",
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-lego.jpg",
             "requiresArbitratedWorldId": true,
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-lego.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-lego.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-lego.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-lego.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-lego.jpg"
             },
             "matchmaking": {
                 "override_playlist": "playlist_juno"
@@ -748,12 +748,12 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "frontend_plugin": "BeanstalkFrontend",
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg"
             },
             "matchmaking": {
                 "override_playlist": "playlist_beanstalk"
@@ -833,12 +833,12 @@
                 "es-419": "¡Te damos la bienvenida a la fiesta! Deja atrás tus armas y materiales, pasa el rato con amigos, juega partidas, perfecciona tu caída libre y mucho más. ¡La fiesta acaba de empezar!",
                 "tr": "Partiye hoş geldin! Silah ve materyallerini geride bırak; arkadaşlarınla vakit geçir, oyunlar oyna, hava dalışında mükemmelliğe ulaş... Parti daha yeni başlıyor!"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-party.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-party.jpg"
             },
             "tagline": "Welcome to the Party! Leave your weapons and mats behind and hang out with friends, play games, perfect your skydive and more. The party’s just getting started!",
             "matchmaking": {
@@ -867,7 +867,7 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg1.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg1.png"
             },
             "required_content": {
                 "verse_uris": [
@@ -897,17 +897,17 @@
                 "es-419": "Aventura",
                 "tr": "Gümüş"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
             "product_tag": "Product.BlastBerry.Build",
             "dynamicXp": {
                 "uniqueGameVersion": 1,
                 "calibrationPhase": "DataAnalysis"
             },
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg"
             },
             "title": "Venture",
             "matchmaking": {
@@ -937,7 +937,7 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg2.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg2.png"
             },
             "required_content": {
                 "verse_uris": [
@@ -961,13 +961,13 @@
                 "es-419": "Oasis",
                 "tr": "Vaha"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
             "product_tag": "Product.BlastBerry.Build",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg"
             },
             "title": "Oasis",
             "matchmaking": {
@@ -1003,7 +1003,7 @@
                 ]
             },
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg3.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg3.png"
             },
             "predownload_link_codes": [
                 "0794-7216-8184"
@@ -1027,13 +1027,13 @@
                 "es-419": "FURIA DE SLURP",
                 "tr": "GAZOZLA TAM GAZ"
             },
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
             "product_tag": "Product.BlastBerry.Build",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png"
             },
             "title": "Slurp Rush",
             "matchmaking": {
@@ -1063,7 +1063,7 @@
         "linkType": "BR:Playlist",
         "metadata": {
             "lobby_background_image_urls": {
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg5.png"
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg5.png"
             },
             "required_content": {
                 "verse_uris": [
@@ -1097,13 +1097,13 @@
             "parent_set": "set_br_playlists",
             "play_history_override": "set_br_playlists",
             "block_cascading_data": "true",
-            "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
+            "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map5.jpg",
             "product_tag": "Product.BlastBerry.Build",
             "image_urls": {
-                "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
-                "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
-                "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg",
-                "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map5.jpg"
+                "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map5.jpg",
+                "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map5.jpg",
+                "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map5.jpg",
+                "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map5.jpg"
             },
             "title": "Surf City",
             "matchmaking": {

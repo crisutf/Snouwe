@@ -15,13 +15,13 @@
             "es-419": "ARENA SOLO"
         },
         "tagline": "ARENA SOLO",
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-arena.png"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-arena.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_showdownalt_solo"

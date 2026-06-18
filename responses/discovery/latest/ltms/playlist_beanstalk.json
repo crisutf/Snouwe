@@ -6,12 +6,12 @@
     "linkType": "BR:Playlist",
     "metadata": {
         "frontend_plugin": "BeanstalkFrontend",
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-fall-guys-islands.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-fall-guys-islands.jpg"
         },
         "matchmaking": {
             "override_playlist": "playlist_beanstalk"

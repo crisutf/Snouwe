@@ -27,13 +27,13 @@
             "es-419": "En dúo",
             "tr": "Çiftli"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
         "product_tag": "Product.BR.Build.Duo",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/duos.png"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/duos.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultduo"

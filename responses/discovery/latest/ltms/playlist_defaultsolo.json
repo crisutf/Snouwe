@@ -27,12 +27,12 @@
             "es-419": "En solitario",
             "tr": "Tekli"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
         "product_tag": "Product.BR.Build.Solo",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/battle/solo.png"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/battle/solo.png"
         },
         "matchmaking": {
             "override_playlist": "playlist_defaultsolo"

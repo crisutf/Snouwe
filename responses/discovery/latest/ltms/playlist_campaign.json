@@ -10,13 +10,13 @@
             "en": "SALVAR EL MUNDO",
             "es": "SALVAR EL MUNDO"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-save-the-world.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-save-the-world.jpg",
         "product_tag": "Product.Campaign",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-save-the-world.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-save-the-world.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-save-the-world.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/fortnite-save-the-world.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-save-the-world.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-save-the-world.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-save-the-world.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/fortnite-save-the-world.jpg"
         },
         "title": "Salvar el mundo"
     },

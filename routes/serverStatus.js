@@ -2,13 +2,25 @@ const express = require("express");
 const app = express.Router();
 const os = require("os");
 
+// Endpoint para el launcher: obtener el número de jugadores conectados (JSON)
+app.get("/api/v1/player-count", (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET");
+    try {
+        const count = (global.Clients && Array.isArray(global.Clients)) ? global.Clients.length : 0;
+        res.json({ count });
+    } catch (err) {
+        res.status(500).json({ count: 0 });
+    }
+});
+
 // Ruta para obtener el estado del servidor, usuarios y estadísticas del sistema
 app.get("/api/v1/server/status", (req, res) => {
     try {
-        const activeUsers = global.accessTokens || [];
-        const users = activeUsers.map(token => ({
-            displayName: token.displayName || "Usuario",
-            accountId: token.accountId.substring(0, 8) + "..."
+        const activeUsers = global.Clients || [];
+        const users = activeUsers.map(client => ({
+            displayName: client.displayName || "Usuario",
+            accountId: client.accountId.substring(0, 8) + "..."
         }));
 
         // Información del sistema

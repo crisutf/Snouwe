@@ -6,7 +6,7 @@
     "linkType": "BR:Playlist",
     "metadata": {
         "lobby_background_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/nitemare_lobbie.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/nitemare_lobbie.png"
         },
         "required_content": {
             "verse_uris": [
@@ -40,13 +40,13 @@
         "parent_set": "set_br_playlists",
         "play_history_override": "set_br_playlists",
         "block_cascading_data": "true",
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map_nigmare.jpg",
         "product_tag": "Product.BlastBerry.Build",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map_nigmare.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map_nigmare.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map_nigmare.jpg"
         },
         "title": "Nitemare Island",
         "matchmaking": {

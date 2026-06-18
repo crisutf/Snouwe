@@ -16,7 +16,7 @@ const matchmaker = require("../matchmaker/matchmaker.js");
 
 global.xmppDomain = "backend-leilos-services.crisu.qzz.io";
 
-global.Clients = [];
+// global.Clients is already initialized in index.js
 
 // multi user chat rooms (global chat/party chat)
 global.MUCs = {};

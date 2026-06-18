@@ -34,17 +34,17 @@
             "tr": "2. Bölüm Remiks, 30 Kasım'daki Remiks: Final gösterisiyle çok özel bir kapanış yapıyor. Kapılar TSİ 21.20'de açılacak ve gösteri TSİ 22.00'de başlayacak."
         },
         "pop_out_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale-background.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale-background.png"
         },
         "background_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale-background.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale-background.png"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-remix-the-finale.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-remix-the-finale.jpg"
         },
         "tagline": "Chapter 2 Remix concludes on a special note with Remix: The Finale on November 30. Doors open at 1:20 PM ET, and the show begins at 2:00 PM ET.",
         "matchmaking": {

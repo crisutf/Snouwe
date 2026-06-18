@@ -6,7 +6,7 @@
     "linkType": "BR:Playlist",
     "metadata": {
         "lobby_background_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg1.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg1.png"
         },
         "required_content": {
             "verse_uris": [
@@ -36,17 +36,17 @@
             "es-419": "Aventura",
             "tr": "Gümüş"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
         "product_tag": "Product.BlastBerry.Build",
         "dynamicXp": {
             "uniqueGameVersion": 1,
             "calibrationPhase": "DataAnalysis"
         },
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map1.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map1.jpg"
         },
         "title": "Venture",
         "matchmaking": {

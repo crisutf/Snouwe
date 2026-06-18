@@ -6,7 +6,7 @@
     "linkType": "BR:Playlist",
     "metadata": {
         "lobby_background_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg2.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg2.png"
         },
         "required_content": {
             "verse_uris": [
@@ -30,13 +30,13 @@
             "es-419": "Oasis",
             "tr": "Vaha"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
         "product_tag": "Product.BlastBerry.Build",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map2.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map2.jpg"
         },
         "title": "Oasis",
         "matchmaking": {

@@ -12,7 +12,7 @@
             ]
         },
         "lobby_background_image_urls": {
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_lobbie_bg3.png"
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_lobbie_bg3.png"
         },
         "predownload_link_codes": [
             "0794-7216-8184"
@@ -36,13 +36,13 @@
             "es-419": "FURIA DE SLURP",
             "tr": "GAZOZLA TAM GAZ"
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
         "product_tag": "Product.BlastBerry.Build",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/reload/reload_map3.png"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/reload/reload_map3.png"
         },
         "title": "Slurp Rush",
         "matchmaking": {

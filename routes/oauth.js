@@ -671,35 +671,107 @@ router.get('/api/v2/discord/callback', async (req, res) => {
     if (state && state.startsWith('launcher')) {
       const port = state.split('_')[1] || '4080';
       const leilosId = user.email.split('@')[0]; // Parte antes de @leilos.tf
+      const lang = req.cookies?.leilos_lang || 'es';
+      const t = translations[lang];
+      const avatarUrl = user.avatar 
+        ? `https://cdn.discordapp.com/avatars/${user.discordId}/${user.avatar}.png` 
+        : `https://cdn.discordapp.com/embed/avatars/${parseInt(user.discordId) % 5}.png`;
 
-      // Redirigir al puerto local del launcher con la info
+      // Mostrar página de saludo y enviar datos al launcher en segundo plano
       return res.send(`
         <html>
           <head>
-            <title>Snouwe | Autorizando Launcher</title>
+            <title>Leilos | Bienvenido</title>
+            <link rel="icon" type="image/png" href="https://cdn.crisu.qzz.io/favicon.png" />
             <style>
-              body { background: #050505; color: white; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center; }
-              .loader { border: 4px solid #1a1a1a; border-top: 4px solid #D4AF37; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 20px; }
-              @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+              @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@300;400;600;700&display=swap');
+              :root {
+                --primary: #D4AF37;
+                --bg-dark: #050505;
+                --bg-card: #0a0a0a;
+                --text-main: #ffffff;
+                --gold-gradient: linear-gradient(135deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+                --border: rgba(212, 175, 55, 0.2);
+              }
+              body { 
+                font-family: 'Rajdhani', sans-serif; 
+                background: var(--bg-dark); 
+                color: var(--text-main); 
+                display: flex; 
+                align-items: center; 
+                justify-content: center; 
+                height: 100vh; 
+                margin: 0;
+                text-align: center;
+              }
+              .card {
+                background: var(--bg-card);
+                padding: 3rem;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                box-shadow: 0 0 30px rgba(0,0,0,0.5);
+                position: relative;
+                max-width: 450px;
+                width: 90%;
+              }
+              .card:after {
+                content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 2px;
+                background: var(--gold-gradient);
+              }
+              .avatar {
+                width: 100px; height: 100px; border-radius: 50%;
+                border: 3px solid var(--primary);
+                margin-bottom: 1.5rem;
+                box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+              }
+              h1 { font-family: 'Orbitron', sans-serif; font-size: 1.5rem; color: var(--primary); margin-bottom: 0.5rem; }
+              p { color: #888; font-size: 1.1rem; margin-bottom: 2rem; }
+              .status {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.5rem;
+                margin-bottom: 1.5rem;
+              }
+              .checkmark {
+                width: 20px;
+                height: 20px;
+                background: var(--primary);
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                color: #000;
+                font-weight: bold;
+              }
             </style>
           </head>
           <body>
-            <div>
-              <div class="loader"></div>
-              <h2 style="color: #D4AF37;">¡Autorizado!</h2>
-              <p>Enviando datos al Launcher...</p>
+            <div class="card">
+              <img class="avatar" src="${avatarUrl}" />
+              <h1>${lang === 'es' ? '¡Hola de nuevo,' : 'Welcome back,'} ${user.username.toUpperCase()}!</h1>
+              <div class="status">
+                <span class="checkmark">✓</span>
+                <span style="color: var(--primary); font-weight: bold;">${lang === 'es' ? 'Autenticado exitosamente' : 'Successfully authenticated'}</span>
+              </div>
+              <p>${lang === 'es' ? 'Ya puedes cerrar esta ventana y abrir el Launcher.' : 'You can now close this window and open the Launcher.'}</p>
             </div>
             <script>
-              // Enviamos la petición al launcher y cerramos
-              fetch("http://127.0.0.1:${port}/auth?id=${leilosId}")
-                .then(() => {
-                  setTimeout(() => window.close(), 1000);
-                })
+              // Enviamos la petición al launcher en segundo plano (sin redirigir)
+              const params = new URLSearchParams({
+                id: "${leilosId}",
+                username: "${user.username}",
+                discordId: "${user.discordId}",
+                avatar: "${user.avatar || ''}",
+                isAdmin: "${user.isAdmin}"
+              });
+              fetch("http://127.0.0.1:${port}/auth?" + params.toString())
                 .catch(() => {
-                  // Si falla el fetch (ej: cors), intentamos redirección directa
-                  window.location.href = "http://127.0.0.1:${port}/auth?id=${leilosId}";
-                  setTimeout(() => window.close(), 2000);
+                  // Silenciamos cualquier error, no es necesario que el usuario lo vea
                 });
+              
+              // Cerrar la ventana después de 3 segundos
+              setTimeout(() => window.close(), 3000);
             </script>
           </body>
         </html>

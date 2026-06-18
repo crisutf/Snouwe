@@ -42,13 +42,13 @@
             "es-419": "Sé parte de un nuevo comienzo con la participación de Eminem.Pero esto no es un concierto... ¡es El Big Bang! ADVERTENCIA DE FOTOSENSIBILIDAD/ATAQUES EPILÉPTICOS: el evento tiene luces intermitentes. ABANDONA EL EVENTO DE INMEDIATO si sientes alguna molestia.",
             "tr": "Eminem'le birlikte yeni bir başlangıcı deneyimle! Ama bu bir konser değil... Bu Büyük Patlama! IŞIĞA DUYARLILIK/KRİZ UYARISI: Bu etkinlik, yanıp sönen ışıklar içerir. Herhangi bir rahatsızlık hissettiğin takdirde oynamayı ANINDA BIRAK."
         },
-        "image_url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-the-big-bang.jpg",
+        "image_url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-the-big-bang.jpg",
         "tagline": "Experience a new beginning, featuring an appearance by Eminem. But this isn't a concert...it's The Big Bang! \r\n PHOTOSENSITIVITY/SEIZURES WARNING: The event has flashing lights. IMMEDIATELY DISCONTINUE if you experience any discomfort.",
         "image_urls": {
-            "url_s": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-the-big-bang.jpg",
-            "url_xs": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-the-big-bang.jpg",
-            "url_m": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-the-big-bang.jpg",
-            "url": "https://backend-leilos-services.crisu.qzz.io/images/gamemodes/epic/event/fortnite-the-big-bang.jpg"
+            "url_s": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-the-big-bang.jpg",
+            "url_xs": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-the-big-bang.jpg",
+            "url_m": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-the-big-bang.jpg",
+            "url": "https://cdn.crisu.qzz.io/services/leilos/gamemodes/epic/event/fortnite-the-big-bang.jpg"
         },
         "matchmaking": {
             "override_playlist": "playlist_durian"

@@ -9,14 +9,8 @@
       "_type": "CommonUI Simple Message",
       "message": {
         "_type": "CommonUI Simple Message Base",
-        "title": "LEILOS - EN CONSTRUCCIÓN",
-        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
-        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
-        "hidden": false,
-        "websiteButtonText": "LEILOS Discord Server",
-        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
-        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
-        "spotlight": true
+        "title": "Backend Leilos",
+        "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!"
       }
     },
     "_activeDate": "2017-07-19T13:14:04.490Z",
@@ -29,14 +23,8 @@
       "_type": "CommonUI Simple Message",
       "message": {
         "_type": "CommonUI Simple Message Base",
-        "title": "LEILOS - EN CONSTRUCCIÓN",
-        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
-        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
-        "hidden": false,
-        "websiteButtonText": "LEILOS Discord Server",
-        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
-        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
-        "spotlight": true
+        "title": "Backend Leilos",
+        "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!"
       }
     },
     "_activeDate": "2017-08-25T20:35:56.304Z",
@@ -48,15 +36,13 @@
     "overrideablemessage": {
       "_type": "CommonUI Simple Message",
       "message": {
-        "image": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg",
+        "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
         "hidden": false,
         "_type": "CommonUI Simple Message Base",
-        "title": "LEILOS - EN CONSTRUCCIÓN",
-        "body": "¡El backend de Leilos se está construyendo y configurando!\nSi has tenido acceso no autorizado, cierra el juego inmediatamente y avisa a los desarrolladores de Leilos.",
-        "spotlight": true,
-        "websiteButtonText": "LEILOS Discord Server",
-        "websiteURL": "https://mini.crisu.qzz.io/leilos_discord",
-        "tileImage": "https://backend-leilos-services.crisu.qzz.io/images/status/down.jpg"
+        "adspace": "ENJOY!",
+        "title": "Backend Leilos",
+        "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!",
+        "spotlight": false
       }
     },
     "_activeDate": "2017-08-30T03:08:31.687Z",
@@ -224,13 +210,32 @@
   "savetheworldnews": {
     "news": {
       "_type": "Battle Royale News",
-      "messages": []
+      "messages": [
+        {
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "hidden": false,
+          "_type": "CommonUI Simple Message Base",
+          "adspace": "DISCORD!",
+          "title": "Backend Leilos",
+          "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!",
+          "spotlight": false
+        },
+        {
+          "image": "https://api-leilos.crisu.qzz.io/images/leilos/png/background_logo.png",
+          "hidden": false,
+          "_type": "CommonUI Simple Message Base",
+          "adspace": "ENJOY!",
+          "title": "Backend Leilos",
+          "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!",
+          "spotlight": false
+        }
+      ]
     },
     "_title": "SaveTheWorldNews",
     "_noIndex": false,
     "alwaysShow": false,
     "_activeDate": "2018-08-06T18:25:46.770Z",
-    "lastModified": "2019-10-30T20:17:48.789Z",
+    "lastModified": "2019-10-29T20:17:48.789Z",
     "_locale": "en-US"
   },
   "battlepassaboutmessages": {
@@ -411,7 +416,15 @@
   "emergencynotice": {
     "news": {
       "_type": "Battle Royale News",
-      "messages": []
+      "messages": [
+        {
+          "hidden": false,
+          "_type": "CommonUI Simple Message Base",
+          "title": "Backend Leilos",
+          "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!",
+          "spotlight": true
+        }
+      ]
     },
     "_title": "emergencynotice",
     "_noIndex": false,
@@ -427,7 +440,15 @@
     "jcr:baseVersion": "a7ca237317f1e771e921e2-7f15-4485-b2e2-553b809fa363",
     "emergencynotices": {
       "_type": "Emergency Notices",
-      "emergencynotices": []
+      "emergencynotices": [
+        {
+          "gamemodes": [],
+          "hidden": false,
+          "_type": "CommonUI Emergency Notice Base",
+          "title": "Backend Leilos",
+          "body": "By Cris\nAdvertencia: En este momento el backend Snouwe está en mantenimiento y construcción. Se recomienda no acceder a menos que seas parte del equipo. Gracias!"
+        }
+      ]
     },
     "_activeDate": "2018-08-06T19:00:26.217Z",
     "lastModified": "2021-12-01T15:55:56.012Z",
